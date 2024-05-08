@@ -1,0 +1,11 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#2F2F00",
+        "titleBar.activeBackground": "#424200",
+        "titleBar.activeForeground": "#FFFF98",
+        "python.pythonPath": ["/Users/pratiksingh/miniconda3/bin/python3", "/Users/pratiksingh/repo/projects/python-modules/new-model-123", "/Users/pratiksingh/repo/projects/python-modules/"],
+        // "python.analysis.extraPaths": [
+        //     "/Users/pratiksingh/repo/projects/script-project/llm_selector_package"
+        //   ]
+    }
+}

@@ -1,0 +1,120 @@
+[
+    {
+        "label": "chainlit",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "chainlit",
+        "description": "chainlit",
+        "detail": "chainlit",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncOpenAI",
+        "importPath": "openai",
+        "description": "openai",
+        "isExtraImport": true,
+        "detail": "openai",
+        "documentation": {}
+    },
+    {
+        "label": "OpenAI",
+        "importPath": "openai",
+        "description": "openai",
+        "isExtraImport": true,
+        "detail": "openai",
+        "documentation": {}
+    },
+    {
+        "label": "print",
+        "importPath": "common_modules.all_in_one_module",
+        "description": "common_modules.all_in_one_module",
+        "isExtraImport": true,
+        "detail": "common_modules.all_in_one_module",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "importPath": "common_modules.all_in_one_module",
+        "description": "common_modules.all_in_one_module",
+        "isExtraImport": true,
+        "detail": "common_modules.all_in_one_module",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "importPath": "common_modules.all_in_one_module",
+        "description": "common_modules.all_in_one_module",
+        "isExtraImport": true,
+        "detail": "common_modules.all_in_one_module",
+        "documentation": {}
+    },
+    {
+        "label": "LLMSelector",
+        "importPath": "common_modules.all_in_one_module",
+        "description": "common_modules.all_in_one_module",
+        "isExtraImport": true,
+        "detail": "common_modules.all_in_one_module",
+        "documentation": {}
+    },
+    {
+        "label": "ModelConfigurator",
+        "importPath": "common_modules.all_in_one_module",
+        "description": "common_modules.all_in_one_module",
+        "isExtraImport": true,
+        "detail": "common_modules.all_in_one_module",
+        "documentation": {}
+    },
+    {
+        "label": "model_choices",
+        "importPath": "common_modules.all_in_one_module",
+        "description": "common_modules.all_in_one_module",
+        "isExtraImport": true,
+        "detail": "common_modules.all_in_one_module",
+        "documentation": {}
+    },
+    {
+        "label": "start_chat",
+        "kind": 2,
+        "importPath": "UI",
+        "description": "UI",
+        "peekOfCode": "def start_chat():\n    # Initialize message history\n    cl.user_session.set(\"message_history\", [{\"role\": \"system\", \"content\": \"You are a helpful chatbot.\"}])\n@cl.on_message\nasync def main(message: cl.Message):\n    # Retrieve the message history from the session\n    message_history = cl.user_session.get(\"message_history\")\n    message_history.append({\"role\": \"user\", \"content\": message.content})\n    # Create an initial empty message to send back to the user\n    msg = cl.Message(content=\"\")",
+        "detail": "UI",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "UI",
+        "description": "UI",
+        "peekOfCode": "client = AsyncOpenAI(api_key=\"YOUR_OPENAI_API_KEY\", base_url=\"http://localhost:1234/v1\")\nsettings = {\n    \"model\": \"lmstudio-community/Meta-Llama-3-8B-Instruct-GGUF\",\n    \"temperature\": 0.7,\n    \"max_tokens\": 500,\n    \"top_p\": 1,\n    \"frequency_penalty\": 0,\n    \"presence_penalty\": 0\n}\n@cl.on_chat_start",
+        "detail": "UI",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "kind": 5,
+        "importPath": "UI",
+        "description": "UI",
+        "peekOfCode": "settings = {\n    \"model\": \"lmstudio-community/Meta-Llama-3-8B-Instruct-GGUF\",\n    \"temperature\": 0.7,\n    \"max_tokens\": 500,\n    \"top_p\": 1,\n    \"frequency_penalty\": 0,\n    \"presence_penalty\": 0\n}\n@cl.on_chat_start\ndef start_chat():",
+        "detail": "UI",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "client = OpenAI(base_url=\"http://localhost:1234/v1\", api_key=\"lm-studio\")\nresponse = client.chat.completions.create(\n  model=\"lmstudio-community/Meta-Llama-3-8B-Instruct-GGUF\",\n  messages=[\n    {\"role\": \"system\", \"content\": \"Always answer in rhymes\"},\n    {\"role\": \"user\", \"content\": \"who are  you ?\"},\n  ],\n  temperature=0.7,\n  stream=True\n)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "response = client.chat.completions.create(\n  model=\"lmstudio-community/Meta-Llama-3-8B-Instruct-GGUF\",\n  messages=[\n    {\"role\": \"system\", \"content\": \"Always answer in rhymes\"},\n    {\"role\": \"user\", \"content\": \"who are  you ?\"},\n  ],\n  temperature=0.7,\n  stream=True\n)\nfor chunk in response:",
+        "detail": "app",
+        "documentation": {}
+    }
+]
