@@ -826,7 +826,7 @@
         "kind": 2,
         "importPath": "main_Function Calling Local LLMs",
         "description": "main_Function Calling Local LLMs",
-        "peekOfCode": "def run_agent(query):\n    output = local_agent.invoke({\"question\": query})\n    print(\"=======\")\n    display((output))\n    display((output[\"generation\"]))\n    # display(Markdown(output))\n    # display(\"yahooo\")\n    # display(Markdown(output[\"generation\"]))\n# Test it out!\n# transform_query(\"why sun hot\")",
+        "peekOfCode": "def run_agent(query):\n    output = local_agent.invoke({\"question\": query})\n    print(\"=======\")\n    # display((output))\n    display((output[\"generation\"]))\n    # display(Markdown(output))\n    # display(\"yahooo\")\n    # display(Markdown(output[\"generation\"]))\n# Test it out!\n# transform_query(\"why sun hot\")",
         "detail": "main_Function Calling Local LLMs",
         "documentation": {}
     },
@@ -952,16 +952,7 @@
         "kind": 5,
         "importPath": "main_Function Calling Local LLMs",
         "description": "main_Function Calling Local LLMs",
-        "peekOfCode": "query_chain = query_prompt | llama3_json | JsonOutputParser()\n# Test Run\n# question = \"What's happened recently with Macom?\"\nquestion = \"why the sky blue?\"\nprint(query_chain.invoke({\"question\": question}))\nprint(\"=================psingh here =============\")\nexit()\n# Graph State\nclass GraphState(TypedDict):\n    \"\"\"",
-        "detail": "main_Function Calling Local LLMs",
-        "documentation": {}
-    },
-    {
-        "label": "question",
-        "kind": 5,
-        "importPath": "main_Function Calling Local LLMs",
-        "description": "main_Function Calling Local LLMs",
-        "peekOfCode": "question = \"why the sky blue?\"\nprint(query_chain.invoke({\"question\": question}))\nprint(\"=================psingh here =============\")\nexit()\n# Graph State\nclass GraphState(TypedDict):\n    \"\"\"\n    Represents the state of our graph.\n    Attributes:\n        question: question",
+        "peekOfCode": "query_chain = query_prompt | llama3_json | JsonOutputParser()\n# Test Run\n# question = \"What's happened recently with Macom?\"\n# question = \"why the sky blue?\"\n# print(query_chain.invoke({\"question\": question}))\nprint(\"=================psingh here =============\")\n# Graph State\nclass GraphState(TypedDict):\n    \"\"\"\n    Represents the state of our graph.",
         "detail": "main_Function Calling Local LLMs",
         "documentation": {}
     },
@@ -979,7 +970,7 @@
         "kind": 5,
         "importPath": "main_Function Calling Local LLMs",
         "description": "main_Function Calling Local LLMs",
-        "peekOfCode": "local_agent = workflow.compile()\ndef run_agent(query):\n    output = local_agent.invoke({\"question\": query})\n    print(\"=======\")\n    display((output))\n    display((output[\"generation\"]))\n    # display(Markdown(output))\n    # display(\"yahooo\")\n    # display(Markdown(output[\"generation\"]))\n# Test it out!",
+        "peekOfCode": "local_agent = workflow.compile()\ndef run_agent(query):\n    output = local_agent.invoke({\"question\": query})\n    print(\"=======\")\n    # display((output))\n    display((output[\"generation\"]))\n    # display(Markdown(output))\n    # display(\"yahooo\")\n    # display(Markdown(output[\"generation\"]))\n# Test it out!",
         "detail": "main_Function Calling Local LLMs",
         "documentation": {}
     }

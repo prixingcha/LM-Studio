@@ -131,10 +131,9 @@ query_chain = query_prompt | llama3_json | JsonOutputParser()
 
 # Test Run
 # question = "What's happened recently with Macom?"
-question = "why the sky blue?"
-print(query_chain.invoke({"question": question}))
+# question = "why the sky blue?"
+# print(query_chain.invoke({"question": question}))
 print("=================psingh here =============")
-exit()
 
 # Graph State
 class GraphState(TypedDict):
@@ -261,7 +260,7 @@ local_agent = workflow.compile()
 def run_agent(query):
     output = local_agent.invoke({"question": query})
     print("=======")
-    display((output))
+    # display((output))
     display((output["generation"]))
 
 
@@ -274,8 +273,7 @@ def run_agent(query):
 
 # transform_query("why sun hot")
 
+# display(Markdown(output))
+# run_agent("what is been up with microsoft recently")
+run_agent("what is 2+2 ? ")
 # run_agent("What's been up with Tesla recently?")
-
-
-
-
