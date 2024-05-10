@@ -900,20 +900,20 @@
         "documentation": {}
     },
     {
-        "label": "configurator",
-        "kind": 5,
-        "importPath": "main",
-        "description": "main",
-        "peekOfCode": "configurator = ModelConfigurator(\"GROQ\")\nconfigurator.configure()\ntry:\n    # client = OpenAI(base_url=os.environ.get(\"OPENAI_API_BASE\"), api_key=os.environ.get(\"OPENAI_API_KEY\"))\n    # output =1/0\n    # print(output)\n    L1 = [\"a\", \"b\"]\n    print(L1[3])\nexcept Exception as ex:\n    output = configurator.check_model_connection(f\"\"\" here is the instruction form for response in python code and display messages in sequential number as follows :",
-        "detail": "main",
-        "documentation": {}
-    },
-    {
         "label": "package_name",
         "kind": 5,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "package_name = \"openai\"\nif is_package_installed(\"openai\"):\n    print(f\"The package '{package_name}' is installed.\")\nelse:\n    print(f\"The package '{package_name}' is not installed.\")",
+        "peekOfCode": "package_name = \"openai\"\nif is_package_installed(\"openai\"):\n    print(f\"The package '{package_name}' is installed.\")\nelse:\n    print(f\"The package '{package_name}' is not installed.\")\nexit()\nconfigurator = ModelConfigurator(\"GROQ\")\nconfigurator.configure()\ntry:\n    # client = OpenAI(base_url=os.environ.get(\"OPENAI_API_BASE\"), api_key=os.environ.get(\"OPENAI_API_KEY\"))",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "configurator",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "configurator = ModelConfigurator(\"GROQ\")\nconfigurator.configure()\ntry:\n    # client = OpenAI(base_url=os.environ.get(\"OPENAI_API_BASE\"), api_key=os.environ.get(\"OPENAI_API_KEY\"))\n    # output =1/0\n    # print(output)\n    L1 = [\"a\", \"b\"]\n    print(L1[3])\n    D1 = 1/0\n    print(D1)",
         "detail": "main",
         "documentation": {}
     },
