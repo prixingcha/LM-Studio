@@ -25,6 +25,14 @@
         "documentation": {}
     },
     {
+        "label": "OpenAI",
+        "importPath": "openai",
+        "description": "openai",
+        "isExtraImport": true,
+        "detail": "openai",
+        "documentation": {}
+    },
+    {
         "label": "print",
         "importPath": "common_modules.all_in_one_module",
         "description": "common_modules.all_in_one_module",
@@ -493,6 +501,15 @@
         "documentation": {}
     },
     {
+        "label": "pkg_resources",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pkg_resources",
+        "description": "pkg_resources",
+        "detail": "pkg_resources",
+        "documentation": {}
+    },
+    {
         "label": "JsonOutputParser",
         "importPath": "langchain_core.output_parsers",
         "description": "langchain_core.output_parsers",
@@ -874,20 +891,29 @@
         "documentation": {}
     },
     {
-        "label": "configurator",
-        "kind": 5,
+        "label": "is_package_installed",
+        "kind": 2,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "configurator = ModelConfigurator(\"GROQ\")\nconfigurator.configure()\nfrom rich.console import Console\nfrom rich.markdown import Markdown\n# Your Markdown content\nmarkdown_text = \"\"\"\n## Heading Level 2\n- Bullet point 1\n- Bullet point 2\n**Bold text** and _italic text_.",
+        "peekOfCode": "def is_package_installed(package_name):\n    try:\n        # Try to get the distribution from the currently active environment\n        pkg_resources.get_distribution(package_name)\n        return True\n    except pkg_resources.DistributionNotFound:\n        return False\n# Example usage\npackage_name = \"openai\"\nif is_package_installed(\"openai\"):",
         "detail": "main",
         "documentation": {}
     },
     {
-        "label": "markdown_text",
+        "label": "configurator",
         "kind": 5,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "markdown_text = \"\"\"\n## Heading Level 2\n- Bullet point 1\n- Bullet point 2\n**Bold text** and _italic text_.\n`Code snippet`\n\"\"\"\ntry:\n    client = OpenAI(base_url=os.environ.get(\"OPENAI_API_BASE\"), api_key=os.environ.get(\"OPENAI_API_KEY\"))\n    # output =1/0",
+        "peekOfCode": "configurator = ModelConfigurator(\"GROQ\")\nconfigurator.configure()\ntry:\n    # client = OpenAI(base_url=os.environ.get(\"OPENAI_API_BASE\"), api_key=os.environ.get(\"OPENAI_API_KEY\"))\n    # output =1/0\n    # print(output)\n    L1 = [\"a\", \"b\"]\n    print(L1[3])\nexcept Exception as ex:\n    output = configurator.check_model_connection(f\"\"\" here is the instruction form for response in python code and display messages in sequential number as follows :",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "package_name",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "package_name = \"openai\"\nif is_package_installed(\"openai\"):\n    print(f\"The package '{package_name}' is installed.\")\nelse:\n    print(f\"The package '{package_name}' is not installed.\")",
         "detail": "main",
         "documentation": {}
     },
