@@ -73,6 +73,377 @@
         "documentation": {}
     },
     {
+        "label": "print",
+        "importPath": "common_modules.all_in_one_module",
+        "description": "common_modules.all_in_one_module",
+        "isExtraImport": true,
+        "detail": "common_modules.all_in_one_module",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "importPath": "common_modules.all_in_one_module",
+        "description": "common_modules.all_in_one_module",
+        "isExtraImport": true,
+        "detail": "common_modules.all_in_one_module",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "importPath": "common_modules.all_in_one_module",
+        "description": "common_modules.all_in_one_module",
+        "isExtraImport": true,
+        "detail": "common_modules.all_in_one_module",
+        "documentation": {}
+    },
+    {
+        "label": "LLMSelector",
+        "importPath": "common_modules.all_in_one_module",
+        "description": "common_modules.all_in_one_module",
+        "isExtraImport": true,
+        "detail": "common_modules.all_in_one_module",
+        "documentation": {}
+    },
+    {
+        "label": "ModelConfigurator",
+        "importPath": "common_modules.all_in_one_module",
+        "description": "common_modules.all_in_one_module",
+        "isExtraImport": true,
+        "detail": "common_modules.all_in_one_module",
+        "documentation": {}
+    },
+    {
+        "label": "model_choices",
+        "importPath": "common_modules.all_in_one_module",
+        "description": "common_modules.all_in_one_module",
+        "isExtraImport": true,
+        "detail": "common_modules.all_in_one_module",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "pdb",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pdb",
+        "description": "pdb",
+        "detail": "pdb",
+        "documentation": {}
+    },
+    {
+        "label": "ChatOpenAI",
+        "importPath": "langchain_openai.chat_models",
+        "description": "langchain_openai.chat_models",
+        "isExtraImport": true,
+        "detail": "langchain_openai.chat_models",
+        "documentation": {}
+    },
+    {
+        "label": "ChatOpenAI",
+        "importPath": "langchain_openai.chat_models",
+        "description": "langchain_openai.chat_models",
+        "isExtraImport": true,
+        "detail": "langchain_openai.chat_models",
+        "documentation": {}
+    },
+    {
+        "label": "ChatPromptTemplate",
+        "importPath": "langchain.prompts",
+        "description": "langchain.prompts",
+        "isExtraImport": true,
+        "detail": "langchain.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "SystemMessagePromptTemplate",
+        "importPath": "langchain.prompts",
+        "description": "langchain.prompts",
+        "isExtraImport": true,
+        "detail": "langchain.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "MessagesPlaceholder",
+        "importPath": "langchain.prompts",
+        "description": "langchain.prompts",
+        "isExtraImport": true,
+        "detail": "langchain.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "ChatPromptTemplate",
+        "importPath": "langchain.prompts",
+        "description": "langchain.prompts",
+        "isExtraImport": true,
+        "detail": "langchain.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "SystemMessagePromptTemplate",
+        "importPath": "langchain.prompts",
+        "description": "langchain.prompts",
+        "isExtraImport": true,
+        "detail": "langchain.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "MessagesPlaceholder",
+        "importPath": "langchain.prompts",
+        "description": "langchain.prompts",
+        "isExtraImport": true,
+        "detail": "langchain.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "PromptTemplate",
+        "importPath": "langchain.prompts",
+        "description": "langchain.prompts",
+        "isExtraImport": true,
+        "detail": "langchain.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "RunnablePassthrough",
+        "importPath": "langchain_core.runnables",
+        "description": "langchain_core.runnables",
+        "isExtraImport": true,
+        "detail": "langchain_core.runnables",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "langchain.pydantic_v1",
+        "description": "langchain.pydantic_v1",
+        "isExtraImport": true,
+        "detail": "langchain.pydantic_v1",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "langchain.pydantic_v1",
+        "description": "langchain.pydantic_v1",
+        "isExtraImport": true,
+        "detail": "langchain.pydantic_v1",
+        "documentation": {}
+    },
+    {
+        "label": "StructuredTool",
+        "importPath": "langchain.tools",
+        "description": "langchain.tools",
+        "isExtraImport": true,
+        "detail": "langchain.tools",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "enum",
+        "description": "enum",
+        "isExtraImport": true,
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "TypedDict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "ToolExecutor",
+        "importPath": "langgraph.prebuilt",
+        "description": "langgraph.prebuilt",
+        "isExtraImport": true,
+        "detail": "langgraph.prebuilt",
+        "documentation": {}
+    },
+    {
+        "label": "ToolInvocation",
+        "importPath": "langgraph.prebuilt",
+        "description": "langgraph.prebuilt",
+        "isExtraImport": true,
+        "detail": "langgraph.prebuilt",
+        "documentation": {}
+    },
+    {
+        "label": "convert_to_openai_function",
+        "importPath": "langchain_core.utils.function_calling",
+        "description": "langchain_core.utils.function_calling",
+        "isExtraImport": true,
+        "detail": "langchain_core.utils.function_calling",
+        "documentation": {}
+    },
+    {
+        "label": "BaseMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "ToolMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "HumanMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "StateGraph",
+        "importPath": "langgraph.graph",
+        "description": "langgraph.graph",
+        "isExtraImport": true,
+        "detail": "langgraph.graph",
+        "documentation": {}
+    },
+    {
+        "label": "END",
+        "importPath": "langgraph.graph",
+        "description": "langgraph.graph",
+        "isExtraImport": true,
+        "detail": "langgraph.graph",
+        "documentation": {}
+    },
+    {
+        "label": "END",
+        "importPath": "langgraph.graph",
+        "description": "langgraph.graph",
+        "isExtraImport": true,
+        "detail": "langgraph.graph",
+        "documentation": {}
+    },
+    {
+        "label": "StateGraph",
+        "importPath": "langgraph.graph",
+        "description": "langgraph.graph",
+        "isExtraImport": true,
+        "detail": "langgraph.graph",
+        "documentation": {}
+    },
+    {
+        "label": "display",
+        "importPath": "IPython.display",
+        "description": "IPython.display",
+        "isExtraImport": true,
+        "detail": "IPython.display",
+        "documentation": {}
+    },
+    {
+        "label": "Markdown",
+        "importPath": "IPython.display",
+        "description": "IPython.display",
+        "isExtraImport": true,
+        "detail": "IPython.display",
+        "documentation": {}
+    },
+    {
+        "label": "Latex",
+        "importPath": "IPython.display",
+        "description": "IPython.display",
+        "isExtraImport": true,
+        "detail": "IPython.display",
+        "documentation": {}
+    },
+    {
+        "label": "JsonOutputParser",
+        "importPath": "langchain_core.output_parsers",
+        "description": "langchain_core.output_parsers",
+        "isExtraImport": true,
+        "detail": "langchain_core.output_parsers",
+        "documentation": {}
+    },
+    {
+        "label": "StrOutputParser",
+        "importPath": "langchain_core.output_parsers",
+        "description": "langchain_core.output_parsers",
+        "isExtraImport": true,
+        "detail": "langchain_core.output_parsers",
+        "documentation": {}
+    },
+    {
+        "label": "ChatOllama",
+        "importPath": "langchain_community.chat_models",
+        "description": "langchain_community.chat_models",
+        "isExtraImport": true,
+        "detail": "langchain_community.chat_models",
+        "documentation": {}
+    },
+    {
+        "label": "DuckDuckGoSearchRun",
+        "importPath": "langchain_community.tools",
+        "description": "langchain_community.tools",
+        "isExtraImport": true,
+        "detail": "langchain_community.tools",
+        "documentation": {}
+    },
+    {
+        "label": "DuckDuckGoSearchAPIWrapper",
+        "importPath": "langchain_community.utilities",
+        "description": "langchain_community.utilities",
+        "isExtraImport": true,
+        "detail": "langchain_community.utilities",
+        "documentation": {}
+    },
+    {
+        "label": "TypedDict",
+        "importPath": "typing_extensions",
+        "description": "typing_extensions",
+        "isExtraImport": true,
+        "detail": "typing_extensions",
+        "documentation": {}
+    },
+    {
         "label": "start_chat",
         "kind": 2,
         "importPath": "UI",
@@ -115,6 +486,501 @@
         "description": "app",
         "peekOfCode": "response = client.chat.completions.create(\n  model=\"lmstudio-community/Meta-Llama-3-8B-Instruct-GGUF\",\n  messages=[\n    {\"role\": \"system\", \"content\": \"Always answer in rhymes\"},\n    {\"role\": \"user\", \"content\": \"who are  you ?\"},\n  ],\n  temperature=0.7,\n  stream=True\n)\nfor chunk in response:",
         "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "Category",
+        "kind": 6,
+        "importPath": "dummy",
+        "description": "dummy",
+        "peekOfCode": "class Category(str, Enum):\n    Food_Allergy = \"Allergy\"\n    Food_Like = \"Like\"\n    Food_Dislike = \"Dislike\"\n    Family_Attribute = \"Attribute\"\nclass Action(str, Enum):\n    Create = \"Create\"\n    Update = \"Update\"\n    Delete = \"Delete\"\nclass AddKnowledge(BaseModel):",
+        "detail": "dummy",
+        "documentation": {}
+    },
+    {
+        "label": "Action",
+        "kind": 6,
+        "importPath": "dummy",
+        "description": "dummy",
+        "peekOfCode": "class Action(str, Enum):\n    Create = \"Create\"\n    Update = \"Update\"\n    Delete = \"Delete\"\nclass AddKnowledge(BaseModel):\n    knowledge: str = Field(\n        ...,\n        description=\"Condensed bit of knowledge to be saved for future reference in the format: [person(s) this is relevant to] [fact to store] (e.g. Husband doesn't like tuna; I am allergic to shellfish; etc)\",\n    )\n    knowledge_old: Optional[str] = Field(",
+        "detail": "dummy",
+        "documentation": {}
+    },
+    {
+        "label": "AddKnowledge",
+        "kind": 6,
+        "importPath": "dummy",
+        "description": "dummy",
+        "peekOfCode": "class AddKnowledge(BaseModel):\n    knowledge: str = Field(\n        ...,\n        description=\"Condensed bit of knowledge to be saved for future reference in the format: [person(s) this is relevant to] [fact to store] (e.g. Husband doesn't like tuna; I am allergic to shellfish; etc)\",\n    )\n    knowledge_old: Optional[str] = Field(\n        None,\n        description=\"If updating or deleting record, the complete, exact phrase that needs to be modified\",\n    )\n    category: Category = Field(",
+        "detail": "dummy",
+        "documentation": {}
+    },
+    {
+        "label": "AgentState",
+        "kind": 6,
+        "importPath": "dummy",
+        "description": "dummy",
+        "peekOfCode": "class AgentState(TypedDict):\n    # The list of previous messages in the conversation\n    messages: Sequence[BaseMessage]\n    # The long-term memories to remember\n    memories: Sequence[str]\n    # Whether the information is relevant\n    contains_information: str\nimport json\nfrom langchain_core.messages import ToolMessage\nfrom langgraph.prebuilt import ToolInvocation",
+        "detail": "dummy",
+        "documentation": {}
+    },
+    {
+        "label": "modify_knowledge",
+        "kind": 2,
+        "importPath": "dummy",
+        "description": "dummy",
+        "peekOfCode": "def modify_knowledge(\n    knowledge: str,\n    category: str,\n    action: str,\n    knowledge_old: str = \"\",\n) -> dict:\n    print(\"Modifying Knowledge: \", knowledge, knowledge_old, category, action)\n    return \"Modified Knowledge\"\ntool_modify_knowledge = StructuredTool.from_function(\n    func=modify_knowledge,",
+        "detail": "dummy",
+        "documentation": {}
+    },
+    {
+        "label": "call_sentinel",
+        "kind": 2,
+        "importPath": "dummy",
+        "description": "dummy",
+        "peekOfCode": "def call_sentinel(state):\n    messages = state[\"messages\"]\n    response = sentinel_runnable.invoke(messages)\n    return {\"contains_information\": \"TRUE\" in response.content and \"yes\" or \"no\"}\n# Define the function that determines whether to continue or not\ndef should_continue(state):\n    last_message = state[\"messages\"][-1]\n    # If there are no tool calls, then we finish\n    if \"tool_calls\" not in last_message.additional_kwargs:\n        return \"end\"",
+        "detail": "dummy",
+        "documentation": {}
+    },
+    {
+        "label": "should_continue",
+        "kind": 2,
+        "importPath": "dummy",
+        "description": "dummy",
+        "peekOfCode": "def should_continue(state):\n    last_message = state[\"messages\"][-1]\n    # If there are no tool calls, then we finish\n    if \"tool_calls\" not in last_message.additional_kwargs:\n        return \"end\"\n    # Otherwise, we continue\n    else:\n        return \"continue\"\n# Define the function that calls the knowledge master\ndef call_knowledge_master(state):",
+        "detail": "dummy",
+        "documentation": {}
+    },
+    {
+        "label": "call_knowledge_master",
+        "kind": 2,
+        "importPath": "dummy",
+        "description": "dummy",
+        "peekOfCode": "def call_knowledge_master(state):\n    messages = state[\"messages\"]\n    memories = state[\"memories\"]\n    response = knowledge_master_runnable.invoke(\n        {\"messages\": messages, \"memories\": memories}\n    )\n    return {\"messages\": messages + [response]}\n# Define the function to execute tools\ndef call_tool(state):\n    messages = state[\"messages\"]",
+        "detail": "dummy",
+        "documentation": {}
+    },
+    {
+        "label": "call_tool",
+        "kind": 2,
+        "importPath": "dummy",
+        "description": "dummy",
+        "peekOfCode": "def call_tool(state):\n    messages = state[\"messages\"]\n    # We know the last message involves at least one tool call\n    last_message = messages[-1]\n    # We loop through all tool calls and append the message to our message log\n    for tool_call in last_message.additional_kwargs[\"tool_calls\"]:\n        action = ToolInvocation(\n            tool=tool_call[\"function\"][\"name\"],\n            tool_input=json.loads(tool_call[\"function\"][\"arguments\"]),\n            id=tool_call[\"id\"],",
+        "detail": "dummy",
+        "documentation": {}
+    },
+    {
+        "label": "return_val",
+        "kind": 5,
+        "importPath": "dummy",
+        "description": "dummy",
+        "peekOfCode": "return_val = LLMSelector(model_choices)\nreturn_val.make_better_prompt(\"\")\nexit()\nreturn_val.run()\nconfigurator = ModelConfigurator(return_val)\nconfigurator.configure()\nconfigurator.check_model_connection()\nx = input(\"press something if done with looking the status !!\")\nconfigurator.clear_screen()\nprint(configurator.all_env.get(\"OLLAMA_MISTRAL_MODEL_NAME\"))",
+        "detail": "dummy",
+        "documentation": {}
+    },
+    {
+        "label": "configurator",
+        "kind": 5,
+        "importPath": "dummy",
+        "description": "dummy",
+        "peekOfCode": "configurator = ModelConfigurator(return_val)\nconfigurator.configure()\nconfigurator.check_model_connection()\nx = input(\"press something if done with looking the status !!\")\nconfigurator.clear_screen()\nprint(configurator.all_env.get(\"OLLAMA_MISTRAL_MODEL_NAME\"))\n# print(configurator.all_envs)\n# Initialize LangSmith\nos.environ[\"LANGCHAIN_TRACING_V2\"] = \"true\"\nos.environ[\"LANGCHAIN_ENDPOINT\"] = \"https://api.smith.langchain.com\"",
+        "detail": "dummy",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "dummy",
+        "description": "dummy",
+        "peekOfCode": "x = input(\"press something if done with looking the status !!\")\nconfigurator.clear_screen()\nprint(configurator.all_env.get(\"OLLAMA_MISTRAL_MODEL_NAME\"))\n# print(configurator.all_envs)\n# Initialize LangSmith\nos.environ[\"LANGCHAIN_TRACING_V2\"] = \"true\"\nos.environ[\"LANGCHAIN_ENDPOINT\"] = \"https://api.smith.langchain.com\"\nos.environ[\"LANGCHAIN_API_KEY\"] = \"ls__62ad09a30b724dc6bc65f8c94ae65ea1\"\nos.environ[\"LANGCHAIN_PROJECT\"] = \"Demos\"\nfrom langchain_openai.chat_models import ChatOpenAI",
+        "detail": "dummy",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"LANGCHAIN_TRACING_V2\"]",
+        "kind": 5,
+        "importPath": "dummy",
+        "description": "dummy",
+        "peekOfCode": "os.environ[\"LANGCHAIN_TRACING_V2\"] = \"true\"\nos.environ[\"LANGCHAIN_ENDPOINT\"] = \"https://api.smith.langchain.com\"\nos.environ[\"LANGCHAIN_API_KEY\"] = \"ls__62ad09a30b724dc6bc65f8c94ae65ea1\"\nos.environ[\"LANGCHAIN_PROJECT\"] = \"Demos\"\nfrom langchain_openai.chat_models import ChatOpenAI\nfrom langchain.prompts import (\n    ChatPromptTemplate,\n    SystemMessagePromptTemplate,\n    MessagesPlaceholder,\n)",
+        "detail": "dummy",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"LANGCHAIN_ENDPOINT\"]",
+        "kind": 5,
+        "importPath": "dummy",
+        "description": "dummy",
+        "peekOfCode": "os.environ[\"LANGCHAIN_ENDPOINT\"] = \"https://api.smith.langchain.com\"\nos.environ[\"LANGCHAIN_API_KEY\"] = \"ls__62ad09a30b724dc6bc65f8c94ae65ea1\"\nos.environ[\"LANGCHAIN_PROJECT\"] = \"Demos\"\nfrom langchain_openai.chat_models import ChatOpenAI\nfrom langchain.prompts import (\n    ChatPromptTemplate,\n    SystemMessagePromptTemplate,\n    MessagesPlaceholder,\n)\nfrom langchain_core.runnables import RunnablePassthrough",
+        "detail": "dummy",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"LANGCHAIN_API_KEY\"]",
+        "kind": 5,
+        "importPath": "dummy",
+        "description": "dummy",
+        "peekOfCode": "os.environ[\"LANGCHAIN_API_KEY\"] = \"ls__62ad09a30b724dc6bc65f8c94ae65ea1\"\nos.environ[\"LANGCHAIN_PROJECT\"] = \"Demos\"\nfrom langchain_openai.chat_models import ChatOpenAI\nfrom langchain.prompts import (\n    ChatPromptTemplate,\n    SystemMessagePromptTemplate,\n    MessagesPlaceholder,\n)\nfrom langchain_core.runnables import RunnablePassthrough\nsystem_prompt_initial = \"\"\"",
+        "detail": "dummy",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"LANGCHAIN_PROJECT\"]",
+        "kind": 5,
+        "importPath": "dummy",
+        "description": "dummy",
+        "peekOfCode": "os.environ[\"LANGCHAIN_PROJECT\"] = \"Demos\"\nfrom langchain_openai.chat_models import ChatOpenAI\nfrom langchain.prompts import (\n    ChatPromptTemplate,\n    SystemMessagePromptTemplate,\n    MessagesPlaceholder,\n)\nfrom langchain_core.runnables import RunnablePassthrough\nsystem_prompt_initial = \"\"\"\nYour job is to assess a brief chat history in order to determine if the conversation contains any details about a family's dining habits. ",
+        "detail": "dummy",
+        "documentation": {}
+    },
+    {
+        "label": "system_prompt_initial",
+        "kind": 5,
+        "importPath": "dummy",
+        "description": "dummy",
+        "peekOfCode": "system_prompt_initial = \"\"\"\nYour job is to assess a brief chat history in order to determine if the conversation contains any details about a family's dining habits. \nYou are part of a team building a knowledge base regarding a family's dining habits to assist in highly customized meal planning.\nYou play the critical role of assessing the message to determine if it contains any information worth recording in the knowledge base.\n1. The family's food allergies (e.g. a dairy or soy allergy)\n2. Foods the family likes (e.g. likes pasta)\n3. Foods the family dislikes (e.g. doesn't eat mussels)\n4. Attributes about the family that may impact weekly meal planning (e.g. lives in Austin; has a husband and 2 children; has a garden; likes big lunches; etc.)\nWhen you receive a message, you perform a sequence of steps consisting of:\n1. Analyze the message for information.",
+        "detail": "dummy",
+        "documentation": {}
+    },
+    {
+        "label": "prompt",
+        "kind": 5,
+        "importPath": "dummy",
+        "description": "dummy",
+        "peekOfCode": "prompt = ChatPromptTemplate.from_messages(\n    [\n        SystemMessagePromptTemplate.from_template(system_prompt_initial),\n        MessagesPlaceholder(variable_name=\"messages\"),\n        (\n            \"system\",\n            \"Remember, only respond with TRUE or FALSE. Do not provide any other information.\",\n        ),\n    ]\n)",
+        "detail": "dummy",
+        "documentation": {}
+    },
+    {
+        "label": "llm",
+        "kind": 5,
+        "importPath": "dummy",
+        "description": "dummy",
+        "peekOfCode": "llm = ChatOpenAI(\n    model=os.environ.get(\"OPENAI_MODEL_NAME\"),#\"gpt-3.5-turbo-0125\",\n    streaming=True,\n    temperature=0.0,\n)\nsentinel_runnable = {\"messages\": RunnablePassthrough()} | prompt | llm\nfrom langchain.pydantic_v1 import BaseModel, Field\nfrom langchain.tools import StructuredTool\nfrom enum import Enum\nfrom typing import Optional",
+        "detail": "dummy",
+        "documentation": {}
+    },
+    {
+        "label": "sentinel_runnable",
+        "kind": 5,
+        "importPath": "dummy",
+        "description": "dummy",
+        "peekOfCode": "sentinel_runnable = {\"messages\": RunnablePassthrough()} | prompt | llm\nfrom langchain.pydantic_v1 import BaseModel, Field\nfrom langchain.tools import StructuredTool\nfrom enum import Enum\nfrom typing import Optional\nclass Category(str, Enum):\n    Food_Allergy = \"Allergy\"\n    Food_Like = \"Like\"\n    Food_Dislike = \"Dislike\"\n    Family_Attribute = \"Attribute\"",
+        "detail": "dummy",
+        "documentation": {}
+    },
+    {
+        "label": "tool_modify_knowledge",
+        "kind": 5,
+        "importPath": "dummy",
+        "description": "dummy",
+        "peekOfCode": "tool_modify_knowledge = StructuredTool.from_function(\n    func=modify_knowledge,\n    name=\"Knowledge_Modifier\",\n    description=\"Add, update, or delete a bit of knowledge\",\n    args_schema=AddKnowledge,\n)\nfrom langgraph.prebuilt import ToolExecutor\nagent_tools = [tool_modify_knowledge]\ntool_executor = ToolExecutor(agent_tools)\nfrom langchain_openai.chat_models import ChatOpenAI",
+        "detail": "dummy",
+        "documentation": {}
+    },
+    {
+        "label": "agent_tools",
+        "kind": 5,
+        "importPath": "dummy",
+        "description": "dummy",
+        "peekOfCode": "agent_tools = [tool_modify_knowledge]\ntool_executor = ToolExecutor(agent_tools)\nfrom langchain_openai.chat_models import ChatOpenAI\nfrom langchain.prompts import (\n    ChatPromptTemplate,\n    SystemMessagePromptTemplate,\n    MessagesPlaceholder,\n)\nfrom langchain_core.utils.function_calling import convert_to_openai_function\nsystem_prompt_initial = \"\"\"",
+        "detail": "dummy",
+        "documentation": {}
+    },
+    {
+        "label": "tool_executor",
+        "kind": 5,
+        "importPath": "dummy",
+        "description": "dummy",
+        "peekOfCode": "tool_executor = ToolExecutor(agent_tools)\nfrom langchain_openai.chat_models import ChatOpenAI\nfrom langchain.prompts import (\n    ChatPromptTemplate,\n    SystemMessagePromptTemplate,\n    MessagesPlaceholder,\n)\nfrom langchain_core.utils.function_calling import convert_to_openai_function\nsystem_prompt_initial = \"\"\"\nYou are a supervisor managing a team of knowledge eperts.",
+        "detail": "dummy",
+        "documentation": {}
+    },
+    {
+        "label": "system_prompt_initial",
+        "kind": 5,
+        "importPath": "dummy",
+        "description": "dummy",
+        "peekOfCode": "system_prompt_initial = \"\"\"\nYou are a supervisor managing a team of knowledge eperts.\nYour team's job is to create a perfect knowledge base about a family's dining habits to assist in highly customized meal planning.\nThe knowledge base should ultimately consist of many discrete pieces of information that add up to a rich persona (e.g. I like pasta; I am allergic to shellfish; I don't eat mussels; I live in Austin, Texas; I have a husband and 2 children aged 5 and 7).\nEvery time you receive a message, you will evaluate if it has any information worth recording in the knowledge base.\nA message may contain multiple pieces of information that should be saved separately.\nYou are only interested in the following categories of information:\n1. The family's food allergies (e.g. a dairy or soy allergy) - These are important to know because they can be life-threatening. Only log something as an allergy if you are certain it is an allergy and not just a dislike.\n2. Foods the family likes (e.g. likes pasta) - These are important to know because they can help you plan meals, but are not life-threatening.\n3. Foods the family dislikes (e.g. doesn't eat mussels or rarely eats beef) - These are important to know because they can help you plan meals, but are not life-threatening.",
+        "detail": "dummy",
+        "documentation": {}
+    },
+    {
+        "label": "prompt",
+        "kind": 5,
+        "importPath": "dummy",
+        "description": "dummy",
+        "peekOfCode": "prompt = ChatPromptTemplate.from_messages(\n    [\n        SystemMessagePromptTemplate.from_template(system_prompt_initial),\n        MessagesPlaceholder(variable_name=\"messages\"),\n    ]\n)\n# Choose the LLM that will drive the agent\nllm = ChatOpenAI(\n    # model=\"gpt-3.5-turbo-0125\",\n    model=os.environ.get(\"OPENAI_MODEL_NAME\"),#\"gpt-4-0125-preview\",",
+        "detail": "dummy",
+        "documentation": {}
+    },
+    {
+        "label": "llm",
+        "kind": 5,
+        "importPath": "dummy",
+        "description": "dummy",
+        "peekOfCode": "llm = ChatOpenAI(\n    # model=\"gpt-3.5-turbo-0125\",\n    model=os.environ.get(\"OPENAI_MODEL_NAME\"),#\"gpt-4-0125-preview\",\n    streaming=True,\n    temperature=0.0,\n)\n# Create the tools to bind to the model\ntools = [convert_to_openai_function(t) for t in agent_tools]\nknowledge_master_runnable = prompt | llm.bind_tools(tools)\nfrom typing import TypedDict, Sequence",
+        "detail": "dummy",
+        "documentation": {}
+    },
+    {
+        "label": "tools",
+        "kind": 5,
+        "importPath": "dummy",
+        "description": "dummy",
+        "peekOfCode": "tools = [convert_to_openai_function(t) for t in agent_tools]\nknowledge_master_runnable = prompt | llm.bind_tools(tools)\nfrom typing import TypedDict, Sequence\nfrom langchain_core.messages import BaseMessage\nclass AgentState(TypedDict):\n    # The list of previous messages in the conversation\n    messages: Sequence[BaseMessage]\n    # The long-term memories to remember\n    memories: Sequence[str]\n    # Whether the information is relevant",
+        "detail": "dummy",
+        "documentation": {}
+    },
+    {
+        "label": "knowledge_master_runnable",
+        "kind": 5,
+        "importPath": "dummy",
+        "description": "dummy",
+        "peekOfCode": "knowledge_master_runnable = prompt | llm.bind_tools(tools)\nfrom typing import TypedDict, Sequence\nfrom langchain_core.messages import BaseMessage\nclass AgentState(TypedDict):\n    # The list of previous messages in the conversation\n    messages: Sequence[BaseMessage]\n    # The long-term memories to remember\n    memories: Sequence[str]\n    # Whether the information is relevant\n    contains_information: str",
+        "detail": "dummy",
+        "documentation": {}
+    },
+    {
+        "label": "graph",
+        "kind": 5,
+        "importPath": "dummy",
+        "description": "dummy",
+        "peekOfCode": "graph = StateGraph(AgentState)\n# Define the two \"Nodes\"\" we will cycle between\ngraph.add_node(\"sentinel\", call_sentinel)\ngraph.add_node(\"knowledge_master\", call_knowledge_master)\ngraph.add_node(\"action\", call_tool)\n# Define all our Edges\n# Set the Starting Edge\ngraph.set_entry_point(\"sentinel\")\n# We now add Conditional Edges\ngraph.add_conditional_edges(",
+        "detail": "dummy",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "dummy",
+        "description": "dummy",
+        "peekOfCode": "app = graph.compile()\nfrom langchain_core.messages import HumanMessage\nmessage = \"There are 6 people in my family. My wife doesn't eat meat and my youngest daughter is allergic to dairy.\"\ninputs = {\n    \"messages\": [HumanMessage(content=message)],\n}\nfor output in app.with_config({\"run_name\": \"Memory\"}).stream(inputs):\n    # stream() yields dictionaries with output keyed by node name\n    for key, value in output.items():\n        print(f\"Output from node '{key}':\")",
+        "detail": "dummy",
+        "documentation": {}
+    },
+    {
+        "label": "message",
+        "kind": 5,
+        "importPath": "dummy",
+        "description": "dummy",
+        "peekOfCode": "message = \"There are 6 people in my family. My wife doesn't eat meat and my youngest daughter is allergic to dairy.\"\ninputs = {\n    \"messages\": [HumanMessage(content=message)],\n}\nfor output in app.with_config({\"run_name\": \"Memory\"}).stream(inputs):\n    # stream() yields dictionaries with output keyed by node name\n    for key, value in output.items():\n        print(f\"Output from node '{key}':\")\n        print(\"---\")\n        print(value)",
+        "detail": "dummy",
+        "documentation": {}
+    },
+    {
+        "label": "inputs",
+        "kind": 5,
+        "importPath": "dummy",
+        "description": "dummy",
+        "peekOfCode": "inputs = {\n    \"messages\": [HumanMessage(content=message)],\n}\nfor output in app.with_config({\"run_name\": \"Memory\"}).stream(inputs):\n    # stream() yields dictionaries with output keyed by node name\n    for key, value in output.items():\n        print(f\"Output from node '{key}':\")\n        print(\"---\")\n        print(value)\n    print(\"\\n---\\n\")",
+        "detail": "dummy",
+        "documentation": {}
+    },
+    {
+        "label": "GraphState",
+        "kind": 6,
+        "importPath": "main_Function Calling Local LLMs",
+        "description": "main_Function Calling Local LLMs",
+        "peekOfCode": "class GraphState(TypedDict):\n    \"\"\"\n    Represents the state of our graph.\n    Attributes:\n        question: question\n        generation: LLM generation\n        search_query: revised question for web search\n        context: web_search result\n    \"\"\"\n    question : str",
+        "detail": "main_Function Calling Local LLMs",
+        "documentation": {}
+    },
+    {
+        "label": "generate",
+        "kind": 2,
+        "importPath": "main_Function Calling Local LLMs",
+        "description": "main_Function Calling Local LLMs",
+        "peekOfCode": "def generate(state):\n    \"\"\"\n    Generate answer\n    Args:\n        state (dict): The current graph state\n    Returns:\n        state (dict): New key added to state, generation, that contains LLM generation\n    \"\"\"\n    print(\"Step: Generating Final Response\")\n    question = state[\"question\"]",
+        "detail": "main_Function Calling Local LLMs",
+        "documentation": {}
+    },
+    {
+        "label": "transform_query",
+        "kind": 2,
+        "importPath": "main_Function Calling Local LLMs",
+        "description": "main_Function Calling Local LLMs",
+        "peekOfCode": "def transform_query(state):\n    \"\"\"\n    Transform user question to web search\n    Args:\n        state (dict): The current graph state\n    Returns:\n        state (dict): Appended search query\n    \"\"\"\n    print(\"Step: Optimizing Query for Web Search\")\n    question = state['question']",
+        "detail": "main_Function Calling Local LLMs",
+        "documentation": {}
+    },
+    {
+        "label": "web_search",
+        "kind": 2,
+        "importPath": "main_Function Calling Local LLMs",
+        "description": "main_Function Calling Local LLMs",
+        "peekOfCode": "def web_search(state):\n    \"\"\"\n    Web search based on the question\n    Args:\n        state (dict): The current graph state\n    Returns:\n        state (dict): Appended web results to context\n    \"\"\"\n    search_query = state['search_query']\n    print(f'Step: Searching the Web for: \"{search_query}\"')",
+        "detail": "main_Function Calling Local LLMs",
+        "documentation": {}
+    },
+    {
+        "label": "route_question",
+        "kind": 2,
+        "importPath": "main_Function Calling Local LLMs",
+        "description": "main_Function Calling Local LLMs",
+        "peekOfCode": "def route_question(state):\n    \"\"\"\n    route question to web search or generation.\n    Args:\n        state (dict): The current graph state\n    Returns:\n        str: Next node to call\n    \"\"\"\n    print(\"Step: Routing Query\")\n    question = state['question']",
+        "detail": "main_Function Calling Local LLMs",
+        "documentation": {}
+    },
+    {
+        "label": "run_agent",
+        "kind": 2,
+        "importPath": "main_Function Calling Local LLMs",
+        "description": "main_Function Calling Local LLMs",
+        "peekOfCode": "def run_agent(query):\n    output = local_agent.invoke({\"question\": query})\n    print(\"=======\")\n    display((output))\n    display((output[\"generation\"]))\n    # display(Markdown(output))\n    # display(\"yahooo\")\n    # display(Markdown(output[\"generation\"]))\n# Test it out!\n# transform_query(\"why sun hot\")",
+        "detail": "main_Function Calling Local LLMs",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ['LANGCHAIN_TRACING_V2']",
+        "kind": 5,
+        "importPath": "main_Function Calling Local LLMs",
+        "description": "main_Function Calling Local LLMs",
+        "peekOfCode": "os.environ['LANGCHAIN_TRACING_V2'] = 'true'\nos.environ[\"LANGCHAIN_PROJECT\"] = \"L3 Research Agent\"\n# Defining LLM\nlocal_llm = 'llama3'\nllama3 = ChatOllama(model=local_llm, temperature=0)\nllama3_json = ChatOllama(model=local_llm, format='json', temperature=0)\n# Web Search Tool\nwrapper = DuckDuckGoSearchAPIWrapper(max_results=25)\nweb_search_tool = DuckDuckGoSearchRun(api_wrapper=wrapper)\n# Test Run",
+        "detail": "main_Function Calling Local LLMs",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"LANGCHAIN_PROJECT\"]",
+        "kind": 5,
+        "importPath": "main_Function Calling Local LLMs",
+        "description": "main_Function Calling Local LLMs",
+        "peekOfCode": "os.environ[\"LANGCHAIN_PROJECT\"] = \"L3 Research Agent\"\n# Defining LLM\nlocal_llm = 'llama3'\nllama3 = ChatOllama(model=local_llm, temperature=0)\nllama3_json = ChatOllama(model=local_llm, format='json', temperature=0)\n# Web Search Tool\nwrapper = DuckDuckGoSearchAPIWrapper(max_results=25)\nweb_search_tool = DuckDuckGoSearchRun(api_wrapper=wrapper)\n# Test Run\n# resp = web_search_tool.invoke(\"home depot news\")",
+        "detail": "main_Function Calling Local LLMs",
+        "documentation": {}
+    },
+    {
+        "label": "local_llm",
+        "kind": 5,
+        "importPath": "main_Function Calling Local LLMs",
+        "description": "main_Function Calling Local LLMs",
+        "peekOfCode": "local_llm = 'llama3'\nllama3 = ChatOllama(model=local_llm, temperature=0)\nllama3_json = ChatOllama(model=local_llm, format='json', temperature=0)\n# Web Search Tool\nwrapper = DuckDuckGoSearchAPIWrapper(max_results=25)\nweb_search_tool = DuckDuckGoSearchRun(api_wrapper=wrapper)\n# Test Run\n# resp = web_search_tool.invoke(\"home depot news\")\n# resp\n# Generation Prompt",
+        "detail": "main_Function Calling Local LLMs",
+        "documentation": {}
+    },
+    {
+        "label": "llama3",
+        "kind": 5,
+        "importPath": "main_Function Calling Local LLMs",
+        "description": "main_Function Calling Local LLMs",
+        "peekOfCode": "llama3 = ChatOllama(model=local_llm, temperature=0)\nllama3_json = ChatOllama(model=local_llm, format='json', temperature=0)\n# Web Search Tool\nwrapper = DuckDuckGoSearchAPIWrapper(max_results=25)\nweb_search_tool = DuckDuckGoSearchRun(api_wrapper=wrapper)\n# Test Run\n# resp = web_search_tool.invoke(\"home depot news\")\n# resp\n# Generation Prompt\ngenerate_prompt = PromptTemplate(",
+        "detail": "main_Function Calling Local LLMs",
+        "documentation": {}
+    },
+    {
+        "label": "llama3_json",
+        "kind": 5,
+        "importPath": "main_Function Calling Local LLMs",
+        "description": "main_Function Calling Local LLMs",
+        "peekOfCode": "llama3_json = ChatOllama(model=local_llm, format='json', temperature=0)\n# Web Search Tool\nwrapper = DuckDuckGoSearchAPIWrapper(max_results=25)\nweb_search_tool = DuckDuckGoSearchRun(api_wrapper=wrapper)\n# Test Run\n# resp = web_search_tool.invoke(\"home depot news\")\n# resp\n# Generation Prompt\ngenerate_prompt = PromptTemplate(\n    template=\"\"\"",
+        "detail": "main_Function Calling Local LLMs",
+        "documentation": {}
+    },
+    {
+        "label": "wrapper",
+        "kind": 5,
+        "importPath": "main_Function Calling Local LLMs",
+        "description": "main_Function Calling Local LLMs",
+        "peekOfCode": "wrapper = DuckDuckGoSearchAPIWrapper(max_results=25)\nweb_search_tool = DuckDuckGoSearchRun(api_wrapper=wrapper)\n# Test Run\n# resp = web_search_tool.invoke(\"home depot news\")\n# resp\n# Generation Prompt\ngenerate_prompt = PromptTemplate(\n    template=\"\"\"\n    <|begin_of_text|>\n    <|start_header_id|>system<|end_header_id|> ",
+        "detail": "main_Function Calling Local LLMs",
+        "documentation": {}
+    },
+    {
+        "label": "web_search_tool",
+        "kind": 5,
+        "importPath": "main_Function Calling Local LLMs",
+        "description": "main_Function Calling Local LLMs",
+        "peekOfCode": "web_search_tool = DuckDuckGoSearchRun(api_wrapper=wrapper)\n# Test Run\n# resp = web_search_tool.invoke(\"home depot news\")\n# resp\n# Generation Prompt\ngenerate_prompt = PromptTemplate(\n    template=\"\"\"\n    <|begin_of_text|>\n    <|start_header_id|>system<|end_header_id|> \n    You are an AI assistant for Research Question Tasks, that synthesizes web search results. ",
+        "detail": "main_Function Calling Local LLMs",
+        "documentation": {}
+    },
+    {
+        "label": "generate_prompt",
+        "kind": 5,
+        "importPath": "main_Function Calling Local LLMs",
+        "description": "main_Function Calling Local LLMs",
+        "peekOfCode": "generate_prompt = PromptTemplate(\n    template=\"\"\"\n    <|begin_of_text|>\n    <|start_header_id|>system<|end_header_id|> \n    You are an AI assistant for Research Question Tasks, that synthesizes web search results. \n    Strictly use the following pieces of web search context to answer the question. If you don't know the answer, just say that you don't know. \n    keep the answer concise, but provide all of the details you can in the form of a research report. \n    Only make direct references to material if provided in the context.\n    <|eot_id|>\n    <|start_header_id|>user<|end_header_id|>",
+        "detail": "main_Function Calling Local LLMs",
+        "documentation": {}
+    },
+    {
+        "label": "generate_chain",
+        "kind": 5,
+        "importPath": "main_Function Calling Local LLMs",
+        "description": "main_Function Calling Local LLMs",
+        "peekOfCode": "generate_chain = generate_prompt | llama3 | StrOutputParser()\n# Test Run\n# question = \"How are you?\"\n# context = \"\"\n# generation = generate_chain.invoke({\"context\": context, \"question\": question})\n# print(generation)\n# Router\nrouter_prompt = PromptTemplate(\n    template=\"\"\"\n    <|begin_of_text|>",
+        "detail": "main_Function Calling Local LLMs",
+        "documentation": {}
+    },
+    {
+        "label": "router_prompt",
+        "kind": 5,
+        "importPath": "main_Function Calling Local LLMs",
+        "description": "main_Function Calling Local LLMs",
+        "peekOfCode": "router_prompt = PromptTemplate(\n    template=\"\"\"\n    <|begin_of_text|>\n    <|start_header_id|>system<|end_header_id|>\n    You are an expert at routing a user question to either the generation stage or web search. \n    Use the web search for questions that require more context for a better answer, or recent events.\n    Otherwise, you can skip and go straight to the generation phase to respond.\n    You do not need to be stringent with the keywords in the question related to these topics.\n    Give a binary choice 'web_search' or 'generate' based on the question. \n    Return the JSON with a single key 'choice' with no premable or explanation. ",
+        "detail": "main_Function Calling Local LLMs",
+        "documentation": {}
+    },
+    {
+        "label": "question_router",
+        "kind": 5,
+        "importPath": "main_Function Calling Local LLMs",
+        "description": "main_Function Calling Local LLMs",
+        "peekOfCode": "question_router = router_prompt | llama3_json | JsonOutputParser()\n# Test Run\nquestion = \"What's up?\"\nprint(question_router.invoke({\"question\": question}))\n# Query Transformation\nquery_prompt = PromptTemplate(\n    template=\"\"\"\n    <|begin_of_text|>\n    <|start_header_id|>system<|end_header_id|> \n    You are an expert at crafting web search queries for research questions.",
+        "detail": "main_Function Calling Local LLMs",
+        "documentation": {}
+    },
+    {
+        "label": "question",
+        "kind": 5,
+        "importPath": "main_Function Calling Local LLMs",
+        "description": "main_Function Calling Local LLMs",
+        "peekOfCode": "question = \"What's up?\"\nprint(question_router.invoke({\"question\": question}))\n# Query Transformation\nquery_prompt = PromptTemplate(\n    template=\"\"\"\n    <|begin_of_text|>\n    <|start_header_id|>system<|end_header_id|> \n    You are an expert at crafting web search queries for research questions.\n    More often than not, a user will ask a basic question that they wish to learn more about, however it might not be in the best format. \n    Reword their query to be the most effective web search string possible.",
+        "detail": "main_Function Calling Local LLMs",
+        "documentation": {}
+    },
+    {
+        "label": "query_prompt",
+        "kind": 5,
+        "importPath": "main_Function Calling Local LLMs",
+        "description": "main_Function Calling Local LLMs",
+        "peekOfCode": "query_prompt = PromptTemplate(\n    template=\"\"\"\n    <|begin_of_text|>\n    <|start_header_id|>system<|end_header_id|> \n    You are an expert at crafting web search queries for research questions.\n    More often than not, a user will ask a basic question that they wish to learn more about, however it might not be in the best format. \n    Reword their query to be the most effective web search string possible.\n    Return the JSON with a single key 'query' with no premable or explanation. \n    Question to transform: {question} \n    <|eot_id|>",
+        "detail": "main_Function Calling Local LLMs",
+        "documentation": {}
+    },
+    {
+        "label": "query_chain",
+        "kind": 5,
+        "importPath": "main_Function Calling Local LLMs",
+        "description": "main_Function Calling Local LLMs",
+        "peekOfCode": "query_chain = query_prompt | llama3_json | JsonOutputParser()\n# Test Run\n# question = \"What's happened recently with Macom?\"\nquestion = \"why the sky blue?\"\nprint(query_chain.invoke({\"question\": question}))\nprint(\"=================psingh here =============\")\nexit()\n# Graph State\nclass GraphState(TypedDict):\n    \"\"\"",
+        "detail": "main_Function Calling Local LLMs",
+        "documentation": {}
+    },
+    {
+        "label": "question",
+        "kind": 5,
+        "importPath": "main_Function Calling Local LLMs",
+        "description": "main_Function Calling Local LLMs",
+        "peekOfCode": "question = \"why the sky blue?\"\nprint(query_chain.invoke({\"question\": question}))\nprint(\"=================psingh here =============\")\nexit()\n# Graph State\nclass GraphState(TypedDict):\n    \"\"\"\n    Represents the state of our graph.\n    Attributes:\n        question: question",
+        "detail": "main_Function Calling Local LLMs",
+        "documentation": {}
+    },
+    {
+        "label": "workflow",
+        "kind": 5,
+        "importPath": "main_Function Calling Local LLMs",
+        "description": "main_Function Calling Local LLMs",
+        "peekOfCode": "workflow = StateGraph(GraphState)\nworkflow.add_node(\"websearch\", web_search)\nworkflow.add_node(\"transform_query\", transform_query)\nworkflow.add_node(\"generate\", generate)\n# Build the edges\nworkflow.set_conditional_entry_point(\n    route_question,\n    {\n        \"websearch\": \"transform_query\",\n        \"generate\": \"generate\",",
+        "detail": "main_Function Calling Local LLMs",
+        "documentation": {}
+    },
+    {
+        "label": "local_agent",
+        "kind": 5,
+        "importPath": "main_Function Calling Local LLMs",
+        "description": "main_Function Calling Local LLMs",
+        "peekOfCode": "local_agent = workflow.compile()\ndef run_agent(query):\n    output = local_agent.invoke({\"question\": query})\n    print(\"=======\")\n    display((output))\n    display((output[\"generation\"]))\n    # display(Markdown(output))\n    # display(\"yahooo\")\n    # display(Markdown(output[\"generation\"]))\n# Test it out!",
+        "detail": "main_Function Calling Local LLMs",
         "documentation": {}
     }
 ]
