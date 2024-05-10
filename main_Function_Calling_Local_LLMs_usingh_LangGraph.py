@@ -259,9 +259,11 @@ local_agent = workflow.compile()
 
 def run_agent(query):
     output = local_agent.invoke({"question": query})
-    print("=======")
-    # display((output))
-    display((output["generation"]))
+    print("=======this is markdown =====")
+    print("testiiing")
+    print((output["generation"]))
+    # display(Markdown(output["generation"]))
+    # display((output["generation"]))
 
 
 
@@ -275,5 +277,5 @@ def run_agent(query):
 
 # display(Markdown(output))
 # run_agent("what is been up with microsoft recently")
-run_agent("what is 2+2 ? ")
-# run_agent("What's been up with Tesla recently?")
+# run_agent("what is 2+2 ? ")
+run_agent("What's been up with microsoft job hiring ?")

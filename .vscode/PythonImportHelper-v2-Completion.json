@@ -121,6 +121,62 @@
         "documentation": {}
     },
     {
+        "label": "print",
+        "importPath": "common_modules.all_in_one_module",
+        "description": "common_modules.all_in_one_module",
+        "isExtraImport": true,
+        "detail": "common_modules.all_in_one_module",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "importPath": "common_modules.all_in_one_module",
+        "description": "common_modules.all_in_one_module",
+        "isExtraImport": true,
+        "detail": "common_modules.all_in_one_module",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "importPath": "common_modules.all_in_one_module",
+        "description": "common_modules.all_in_one_module",
+        "isExtraImport": true,
+        "detail": "common_modules.all_in_one_module",
+        "documentation": {}
+    },
+    {
+        "label": "LLMSelector",
+        "importPath": "common_modules.all_in_one_module",
+        "description": "common_modules.all_in_one_module",
+        "isExtraImport": true,
+        "detail": "common_modules.all_in_one_module",
+        "documentation": {}
+    },
+    {
+        "label": "ModelConfigurator",
+        "importPath": "common_modules.all_in_one_module",
+        "description": "common_modules.all_in_one_module",
+        "isExtraImport": true,
+        "detail": "common_modules.all_in_one_module",
+        "documentation": {}
+    },
+    {
+        "label": "model_choices",
+        "importPath": "common_modules.all_in_one_module",
+        "description": "common_modules.all_in_one_module",
+        "isExtraImport": true,
+        "detail": "common_modules.all_in_one_module",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
         "label": "load_dotenv",
         "importPath": "dotenv",
         "description": "dotenv",
@@ -372,6 +428,31 @@
         "documentation": {}
     },
     {
+        "label": "traceback",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "traceback",
+        "description": "traceback",
+        "detail": "traceback",
+        "documentation": {}
+    },
+    {
+        "label": "display",
+        "importPath": "IPython.display",
+        "description": "IPython.display",
+        "isExtraImport": true,
+        "detail": "IPython.display",
+        "documentation": {}
+    },
+    {
+        "label": "Markdown",
+        "importPath": "IPython.display",
+        "description": "IPython.display",
+        "isExtraImport": true,
+        "detail": "IPython.display",
+        "documentation": {}
+    },
+    {
         "label": "display",
         "importPath": "IPython.display",
         "description": "IPython.display",
@@ -393,6 +474,22 @@
         "description": "IPython.display",
         "isExtraImport": true,
         "detail": "IPython.display",
+        "documentation": {}
+    },
+    {
+        "label": "Console",
+        "importPath": "rich.console",
+        "description": "rich.console",
+        "isExtraImport": true,
+        "detail": "rich.console",
+        "documentation": {}
+    },
+    {
+        "label": "Markdown",
+        "importPath": "rich.markdown",
+        "description": "rich.markdown",
+        "isExtraImport": true,
+        "detail": "rich.markdown",
         "documentation": {}
     },
     {
@@ -777,201 +874,219 @@
         "documentation": {}
     },
     {
+        "label": "configurator",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "configurator = ModelConfigurator(\"GROQ\")\nconfigurator.configure()\nfrom rich.console import Console\nfrom rich.markdown import Markdown\n# Your Markdown content\nmarkdown_text = \"\"\"\n## Heading Level 2\n- Bullet point 1\n- Bullet point 2\n**Bold text** and _italic text_.",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "markdown_text",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "markdown_text = \"\"\"\n## Heading Level 2\n- Bullet point 1\n- Bullet point 2\n**Bold text** and _italic text_.\n`Code snippet`\n\"\"\"\ntry:\n    client = OpenAI(base_url=os.environ.get(\"OPENAI_API_BASE\"), api_key=os.environ.get(\"OPENAI_API_KEY\"))\n    # output =1/0",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
         "label": "GraphState",
         "kind": 6,
-        "importPath": "main_Function Calling Local LLMs",
-        "description": "main_Function Calling Local LLMs",
+        "importPath": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
+        "description": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
         "peekOfCode": "class GraphState(TypedDict):\n    \"\"\"\n    Represents the state of our graph.\n    Attributes:\n        question: question\n        generation: LLM generation\n        search_query: revised question for web search\n        context: web_search result\n    \"\"\"\n    question : str",
-        "detail": "main_Function Calling Local LLMs",
+        "detail": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
         "documentation": {}
     },
     {
         "label": "generate",
         "kind": 2,
-        "importPath": "main_Function Calling Local LLMs",
-        "description": "main_Function Calling Local LLMs",
+        "importPath": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
+        "description": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
         "peekOfCode": "def generate(state):\n    \"\"\"\n    Generate answer\n    Args:\n        state (dict): The current graph state\n    Returns:\n        state (dict): New key added to state, generation, that contains LLM generation\n    \"\"\"\n    print(\"Step: Generating Final Response\")\n    question = state[\"question\"]",
-        "detail": "main_Function Calling Local LLMs",
+        "detail": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
         "documentation": {}
     },
     {
         "label": "transform_query",
         "kind": 2,
-        "importPath": "main_Function Calling Local LLMs",
-        "description": "main_Function Calling Local LLMs",
+        "importPath": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
+        "description": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
         "peekOfCode": "def transform_query(state):\n    \"\"\"\n    Transform user question to web search\n    Args:\n        state (dict): The current graph state\n    Returns:\n        state (dict): Appended search query\n    \"\"\"\n    print(\"Step: Optimizing Query for Web Search\")\n    question = state['question']",
-        "detail": "main_Function Calling Local LLMs",
+        "detail": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
         "documentation": {}
     },
     {
         "label": "web_search",
         "kind": 2,
-        "importPath": "main_Function Calling Local LLMs",
-        "description": "main_Function Calling Local LLMs",
+        "importPath": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
+        "description": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
         "peekOfCode": "def web_search(state):\n    \"\"\"\n    Web search based on the question\n    Args:\n        state (dict): The current graph state\n    Returns:\n        state (dict): Appended web results to context\n    \"\"\"\n    search_query = state['search_query']\n    print(f'Step: Searching the Web for: \"{search_query}\"')",
-        "detail": "main_Function Calling Local LLMs",
+        "detail": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
         "documentation": {}
     },
     {
         "label": "route_question",
         "kind": 2,
-        "importPath": "main_Function Calling Local LLMs",
-        "description": "main_Function Calling Local LLMs",
+        "importPath": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
+        "description": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
         "peekOfCode": "def route_question(state):\n    \"\"\"\n    route question to web search or generation.\n    Args:\n        state (dict): The current graph state\n    Returns:\n        str: Next node to call\n    \"\"\"\n    print(\"Step: Routing Query\")\n    question = state['question']",
-        "detail": "main_Function Calling Local LLMs",
+        "detail": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
         "documentation": {}
     },
     {
         "label": "run_agent",
         "kind": 2,
-        "importPath": "main_Function Calling Local LLMs",
-        "description": "main_Function Calling Local LLMs",
-        "peekOfCode": "def run_agent(query):\n    output = local_agent.invoke({\"question\": query})\n    print(\"=======\")\n    # display((output))\n    display((output[\"generation\"]))\n    # display(Markdown(output))\n    # display(\"yahooo\")\n    # display(Markdown(output[\"generation\"]))\n# Test it out!\n# transform_query(\"why sun hot\")",
-        "detail": "main_Function Calling Local LLMs",
+        "importPath": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
+        "description": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
+        "peekOfCode": "def run_agent(query):\n    output = local_agent.invoke({\"question\": query})\n    print(\"=======this is markdown =====\")\n    print(\"testiiing\")\n    print((output[\"generation\"]))\n    # display(Markdown(output[\"generation\"]))\n    # display((output[\"generation\"]))\n    # display(Markdown(output))\n    # display(\"yahooo\")\n    # display(Markdown(output[\"generation\"]))",
+        "detail": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
         "documentation": {}
     },
     {
         "label": "os.environ['LANGCHAIN_TRACING_V2']",
         "kind": 5,
-        "importPath": "main_Function Calling Local LLMs",
-        "description": "main_Function Calling Local LLMs",
+        "importPath": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
+        "description": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
         "peekOfCode": "os.environ['LANGCHAIN_TRACING_V2'] = 'true'\nos.environ[\"LANGCHAIN_PROJECT\"] = \"L3 Research Agent\"\n# Defining LLM\nlocal_llm = 'llama3'\nllama3 = ChatOllama(model=local_llm, temperature=0)\nllama3_json = ChatOllama(model=local_llm, format='json', temperature=0)\n# Web Search Tool\nwrapper = DuckDuckGoSearchAPIWrapper(max_results=25)\nweb_search_tool = DuckDuckGoSearchRun(api_wrapper=wrapper)\n# Test Run",
-        "detail": "main_Function Calling Local LLMs",
+        "detail": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
         "documentation": {}
     },
     {
         "label": "os.environ[\"LANGCHAIN_PROJECT\"]",
         "kind": 5,
-        "importPath": "main_Function Calling Local LLMs",
-        "description": "main_Function Calling Local LLMs",
+        "importPath": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
+        "description": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
         "peekOfCode": "os.environ[\"LANGCHAIN_PROJECT\"] = \"L3 Research Agent\"\n# Defining LLM\nlocal_llm = 'llama3'\nllama3 = ChatOllama(model=local_llm, temperature=0)\nllama3_json = ChatOllama(model=local_llm, format='json', temperature=0)\n# Web Search Tool\nwrapper = DuckDuckGoSearchAPIWrapper(max_results=25)\nweb_search_tool = DuckDuckGoSearchRun(api_wrapper=wrapper)\n# Test Run\n# resp = web_search_tool.invoke(\"home depot news\")",
-        "detail": "main_Function Calling Local LLMs",
+        "detail": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
         "documentation": {}
     },
     {
         "label": "local_llm",
         "kind": 5,
-        "importPath": "main_Function Calling Local LLMs",
-        "description": "main_Function Calling Local LLMs",
+        "importPath": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
+        "description": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
         "peekOfCode": "local_llm = 'llama3'\nllama3 = ChatOllama(model=local_llm, temperature=0)\nllama3_json = ChatOllama(model=local_llm, format='json', temperature=0)\n# Web Search Tool\nwrapper = DuckDuckGoSearchAPIWrapper(max_results=25)\nweb_search_tool = DuckDuckGoSearchRun(api_wrapper=wrapper)\n# Test Run\n# resp = web_search_tool.invoke(\"home depot news\")\n# resp\n# Generation Prompt",
-        "detail": "main_Function Calling Local LLMs",
+        "detail": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
         "documentation": {}
     },
     {
         "label": "llama3",
         "kind": 5,
-        "importPath": "main_Function Calling Local LLMs",
-        "description": "main_Function Calling Local LLMs",
+        "importPath": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
+        "description": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
         "peekOfCode": "llama3 = ChatOllama(model=local_llm, temperature=0)\nllama3_json = ChatOllama(model=local_llm, format='json', temperature=0)\n# Web Search Tool\nwrapper = DuckDuckGoSearchAPIWrapper(max_results=25)\nweb_search_tool = DuckDuckGoSearchRun(api_wrapper=wrapper)\n# Test Run\n# resp = web_search_tool.invoke(\"home depot news\")\n# resp\n# Generation Prompt\ngenerate_prompt = PromptTemplate(",
-        "detail": "main_Function Calling Local LLMs",
+        "detail": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
         "documentation": {}
     },
     {
         "label": "llama3_json",
         "kind": 5,
-        "importPath": "main_Function Calling Local LLMs",
-        "description": "main_Function Calling Local LLMs",
+        "importPath": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
+        "description": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
         "peekOfCode": "llama3_json = ChatOllama(model=local_llm, format='json', temperature=0)\n# Web Search Tool\nwrapper = DuckDuckGoSearchAPIWrapper(max_results=25)\nweb_search_tool = DuckDuckGoSearchRun(api_wrapper=wrapper)\n# Test Run\n# resp = web_search_tool.invoke(\"home depot news\")\n# resp\n# Generation Prompt\ngenerate_prompt = PromptTemplate(\n    template=\"\"\"",
-        "detail": "main_Function Calling Local LLMs",
+        "detail": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
         "documentation": {}
     },
     {
         "label": "wrapper",
         "kind": 5,
-        "importPath": "main_Function Calling Local LLMs",
-        "description": "main_Function Calling Local LLMs",
+        "importPath": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
+        "description": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
         "peekOfCode": "wrapper = DuckDuckGoSearchAPIWrapper(max_results=25)\nweb_search_tool = DuckDuckGoSearchRun(api_wrapper=wrapper)\n# Test Run\n# resp = web_search_tool.invoke(\"home depot news\")\n# resp\n# Generation Prompt\ngenerate_prompt = PromptTemplate(\n    template=\"\"\"\n    <|begin_of_text|>\n    <|start_header_id|>system<|end_header_id|> ",
-        "detail": "main_Function Calling Local LLMs",
+        "detail": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
         "documentation": {}
     },
     {
         "label": "web_search_tool",
         "kind": 5,
-        "importPath": "main_Function Calling Local LLMs",
-        "description": "main_Function Calling Local LLMs",
+        "importPath": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
+        "description": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
         "peekOfCode": "web_search_tool = DuckDuckGoSearchRun(api_wrapper=wrapper)\n# Test Run\n# resp = web_search_tool.invoke(\"home depot news\")\n# resp\n# Generation Prompt\ngenerate_prompt = PromptTemplate(\n    template=\"\"\"\n    <|begin_of_text|>\n    <|start_header_id|>system<|end_header_id|> \n    You are an AI assistant for Research Question Tasks, that synthesizes web search results. ",
-        "detail": "main_Function Calling Local LLMs",
+        "detail": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
         "documentation": {}
     },
     {
         "label": "generate_prompt",
         "kind": 5,
-        "importPath": "main_Function Calling Local LLMs",
-        "description": "main_Function Calling Local LLMs",
+        "importPath": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
+        "description": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
         "peekOfCode": "generate_prompt = PromptTemplate(\n    template=\"\"\"\n    <|begin_of_text|>\n    <|start_header_id|>system<|end_header_id|> \n    You are an AI assistant for Research Question Tasks, that synthesizes web search results. \n    Strictly use the following pieces of web search context to answer the question. If you don't know the answer, just say that you don't know. \n    keep the answer concise, but provide all of the details you can in the form of a research report. \n    Only make direct references to material if provided in the context.\n    <|eot_id|>\n    <|start_header_id|>user<|end_header_id|>",
-        "detail": "main_Function Calling Local LLMs",
+        "detail": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
         "documentation": {}
     },
     {
         "label": "generate_chain",
         "kind": 5,
-        "importPath": "main_Function Calling Local LLMs",
-        "description": "main_Function Calling Local LLMs",
+        "importPath": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
+        "description": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
         "peekOfCode": "generate_chain = generate_prompt | llama3 | StrOutputParser()\n# Test Run\n# question = \"How are you?\"\n# context = \"\"\n# generation = generate_chain.invoke({\"context\": context, \"question\": question})\n# print(generation)\n# Router\nrouter_prompt = PromptTemplate(\n    template=\"\"\"\n    <|begin_of_text|>",
-        "detail": "main_Function Calling Local LLMs",
+        "detail": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
         "documentation": {}
     },
     {
         "label": "router_prompt",
         "kind": 5,
-        "importPath": "main_Function Calling Local LLMs",
-        "description": "main_Function Calling Local LLMs",
+        "importPath": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
+        "description": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
         "peekOfCode": "router_prompt = PromptTemplate(\n    template=\"\"\"\n    <|begin_of_text|>\n    <|start_header_id|>system<|end_header_id|>\n    You are an expert at routing a user question to either the generation stage or web search. \n    Use the web search for questions that require more context for a better answer, or recent events.\n    Otherwise, you can skip and go straight to the generation phase to respond.\n    You do not need to be stringent with the keywords in the question related to these topics.\n    Give a binary choice 'web_search' or 'generate' based on the question. \n    Return the JSON with a single key 'choice' with no premable or explanation. ",
-        "detail": "main_Function Calling Local LLMs",
+        "detail": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
         "documentation": {}
     },
     {
         "label": "question_router",
         "kind": 5,
-        "importPath": "main_Function Calling Local LLMs",
-        "description": "main_Function Calling Local LLMs",
+        "importPath": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
+        "description": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
         "peekOfCode": "question_router = router_prompt | llama3_json | JsonOutputParser()\n# Test Run\nquestion = \"What's up?\"\nprint(question_router.invoke({\"question\": question}))\n# Query Transformation\nquery_prompt = PromptTemplate(\n    template=\"\"\"\n    <|begin_of_text|>\n    <|start_header_id|>system<|end_header_id|> \n    You are an expert at crafting web search queries for research questions.",
-        "detail": "main_Function Calling Local LLMs",
+        "detail": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
         "documentation": {}
     },
     {
         "label": "question",
         "kind": 5,
-        "importPath": "main_Function Calling Local LLMs",
-        "description": "main_Function Calling Local LLMs",
+        "importPath": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
+        "description": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
         "peekOfCode": "question = \"What's up?\"\nprint(question_router.invoke({\"question\": question}))\n# Query Transformation\nquery_prompt = PromptTemplate(\n    template=\"\"\"\n    <|begin_of_text|>\n    <|start_header_id|>system<|end_header_id|> \n    You are an expert at crafting web search queries for research questions.\n    More often than not, a user will ask a basic question that they wish to learn more about, however it might not be in the best format. \n    Reword their query to be the most effective web search string possible.",
-        "detail": "main_Function Calling Local LLMs",
+        "detail": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
         "documentation": {}
     },
     {
         "label": "query_prompt",
         "kind": 5,
-        "importPath": "main_Function Calling Local LLMs",
-        "description": "main_Function Calling Local LLMs",
+        "importPath": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
+        "description": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
         "peekOfCode": "query_prompt = PromptTemplate(\n    template=\"\"\"\n    <|begin_of_text|>\n    <|start_header_id|>system<|end_header_id|> \n    You are an expert at crafting web search queries for research questions.\n    More often than not, a user will ask a basic question that they wish to learn more about, however it might not be in the best format. \n    Reword their query to be the most effective web search string possible.\n    Return the JSON with a single key 'query' with no premable or explanation. \n    Question to transform: {question} \n    <|eot_id|>",
-        "detail": "main_Function Calling Local LLMs",
+        "detail": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
         "documentation": {}
     },
     {
         "label": "query_chain",
         "kind": 5,
-        "importPath": "main_Function Calling Local LLMs",
-        "description": "main_Function Calling Local LLMs",
+        "importPath": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
+        "description": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
         "peekOfCode": "query_chain = query_prompt | llama3_json | JsonOutputParser()\n# Test Run\n# question = \"What's happened recently with Macom?\"\n# question = \"why the sky blue?\"\n# print(query_chain.invoke({\"question\": question}))\nprint(\"=================psingh here =============\")\n# Graph State\nclass GraphState(TypedDict):\n    \"\"\"\n    Represents the state of our graph.",
-        "detail": "main_Function Calling Local LLMs",
+        "detail": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
         "documentation": {}
     },
     {
         "label": "workflow",
         "kind": 5,
-        "importPath": "main_Function Calling Local LLMs",
-        "description": "main_Function Calling Local LLMs",
+        "importPath": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
+        "description": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
         "peekOfCode": "workflow = StateGraph(GraphState)\nworkflow.add_node(\"websearch\", web_search)\nworkflow.add_node(\"transform_query\", transform_query)\nworkflow.add_node(\"generate\", generate)\n# Build the edges\nworkflow.set_conditional_entry_point(\n    route_question,\n    {\n        \"websearch\": \"transform_query\",\n        \"generate\": \"generate\",",
-        "detail": "main_Function Calling Local LLMs",
+        "detail": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
         "documentation": {}
     },
     {
         "label": "local_agent",
         "kind": 5,
-        "importPath": "main_Function Calling Local LLMs",
-        "description": "main_Function Calling Local LLMs",
-        "peekOfCode": "local_agent = workflow.compile()\ndef run_agent(query):\n    output = local_agent.invoke({\"question\": query})\n    print(\"=======\")\n    # display((output))\n    display((output[\"generation\"]))\n    # display(Markdown(output))\n    # display(\"yahooo\")\n    # display(Markdown(output[\"generation\"]))\n# Test it out!",
-        "detail": "main_Function Calling Local LLMs",
+        "importPath": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
+        "description": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
+        "peekOfCode": "local_agent = workflow.compile()\ndef run_agent(query):\n    output = local_agent.invoke({\"question\": query})\n    print(\"=======this is markdown =====\")\n    print(\"testiiing\")\n    print((output[\"generation\"]))\n    # display(Markdown(output[\"generation\"]))\n    # display((output[\"generation\"]))\n    # display(Markdown(output))\n    # display(\"yahooo\")",
+        "detail": "main_Function_Calling_Local_LLMs_usingh_LangGraph",
         "documentation": {}
     }
 ]
