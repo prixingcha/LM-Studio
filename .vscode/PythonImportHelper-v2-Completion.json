@@ -627,11 +627,47 @@
         "documentation": {}
     },
     {
+        "label": "error_find_not_found_error",
+        "kind": 2,
+        "importPath": "app_find_python_error_explain_using_LLM",
+        "description": "app_find_python_error_explain_using_LLM",
+        "peekOfCode": "def error_find_not_found_error():\n    print(\"test\")\n    # from langchain.text_splitter import CharacterTextSplitter\n    # from langchain.document_loaders import TextLoader\n    # import pathlib\n    # raw_documents = TextLoader(str(state_of_the_union)).load()\n    # text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=0)\n    # documents = text_splitter.split_documents(raw_documents)\ndef error_package_error():\n    print(\"test\")",
+        "detail": "app_find_python_error_explain_using_LLM",
+        "documentation": {}
+    },
+    {
+        "label": "error_package_error",
+        "kind": 2,
+        "importPath": "app_find_python_error_explain_using_LLM",
+        "description": "app_find_python_error_explain_using_LLM",
+        "peekOfCode": "def error_package_error():\n    print(\"test\")\n    from openai import OpenAI\n    client = OpenAI(base_url=os.environ.get(\"OPENAI_API_BASE\"), api_key=os.environ.get(\"OPENAI_API_KEY\"))\ndef error_env_variable_error():\n    print(\"test\")\n    my_var = os.getenv('MY_ENV_VAR')\n    if my_var is None:\n        raise ValueError(\"Environment variable 'MY_ENV_VAR' not set\")\ndef error_divide_by_zero():",
+        "detail": "app_find_python_error_explain_using_LLM",
+        "documentation": {}
+    },
+    {
+        "label": "error_env_variable_error",
+        "kind": 2,
+        "importPath": "app_find_python_error_explain_using_LLM",
+        "description": "app_find_python_error_explain_using_LLM",
+        "peekOfCode": "def error_env_variable_error():\n    print(\"test\")\n    my_var = os.getenv('MY_ENV_VAR')\n    if my_var is None:\n        raise ValueError(\"Environment variable 'MY_ENV_VAR' not set\")\ndef error_divide_by_zero():\n    print(\"test\")\n    val = 1/0\ntry:\n    # val = 1/0",
+        "detail": "app_find_python_error_explain_using_LLM",
+        "documentation": {}
+    },
+    {
+        "label": "error_divide_by_zero",
+        "kind": 2,
+        "importPath": "app_find_python_error_explain_using_LLM",
+        "description": "app_find_python_error_explain_using_LLM",
+        "peekOfCode": "def error_divide_by_zero():\n    print(\"test\")\n    val = 1/0\ntry:\n    # val = 1/0\n    from openai import OpenAI\n    client =OpenAI(base_url=os.environ.get(\"OPENAI_API_BASE\"), api_key=os.environ.get(\"OPENAI_API_KEY\"))\n    # my_var = os.getenv('MY_ENV_VAR')\n    # if my_var is None:\n    #     raise ValueError(\"Environment variable 'MY_ENV_VAR' not set\")",
+        "detail": "app_find_python_error_explain_using_LLM",
+        "documentation": {}
+    },
+    {
         "label": "configurator",
         "kind": 5,
         "importPath": "app_find_python_error_explain_using_LLM",
         "description": "app_find_python_error_explain_using_LLM",
-        "peekOfCode": "configurator = ModelConfigurator(\"GROQ\")\nconfigurator.configure()\noutput = None\ntry:\n    # Split the document into chunks\n    from langchain.text_splitter import CharacterTextSplitter\n    from langchain.document_loaders import TextLoader\n    import pathlib\n    # Define the path to the document to be loaded into the knowledge base\n    # state_of_the_union = pathlib.Path(\"/Users/pratiksingh/repo/projects/LM-Studio/data/test_file.txt\")",
+        "peekOfCode": "configurator = ModelConfigurator(\"GROQ\")\nconfigurator.configure()\noutput = None\ndef error_find_not_found_error():\n    print(\"test\")\n    # from langchain.text_splitter import CharacterTextSplitter\n    # from langchain.document_loaders import TextLoader\n    # import pathlib\n    # raw_documents = TextLoader(str(state_of_the_union)).load()\n    # text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=0)",
         "detail": "app_find_python_error_explain_using_LLM",
         "documentation": {}
     },
@@ -640,7 +676,7 @@
         "kind": 5,
         "importPath": "app_find_python_error_explain_using_LLM",
         "description": "app_find_python_error_explain_using_LLM",
-        "peekOfCode": "output = None\ntry:\n    # Split the document into chunks\n    from langchain.text_splitter import CharacterTextSplitter\n    from langchain.document_loaders import TextLoader\n    import pathlib\n    # Define the path to the document to be loaded into the knowledge base\n    # state_of_the_union = pathlib.Path(\"/Users/pratiksingh/repo/projects/LM-Studio/data/test_file.txt\")\n# Load the document\n    raw_documents = TextLoader(str(state_of_the_union)).load()",
+        "peekOfCode": "output = None\ndef error_find_not_found_error():\n    print(\"test\")\n    # from langchain.text_splitter import CharacterTextSplitter\n    # from langchain.document_loaders import TextLoader\n    # import pathlib\n    # raw_documents = TextLoader(str(state_of_the_union)).load()\n    # text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=0)\n    # documents = text_splitter.split_documents(raw_documents)\ndef error_package_error():",
         "detail": "app_find_python_error_explain_using_LLM",
         "documentation": {}
     },
