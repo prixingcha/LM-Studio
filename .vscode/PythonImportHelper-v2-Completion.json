@@ -25,14 +25,6 @@
         "documentation": {}
     },
     {
-        "label": "OpenAI",
-        "importPath": "openai",
-        "description": "openai",
-        "isExtraImport": true,
-        "detail": "openai",
-        "documentation": {}
-    },
-    {
         "label": "print",
         "importPath": "common_modules.all_in_one_module",
         "description": "common_modules.all_in_one_module",
@@ -174,6 +166,15 @@
         "description": "common_modules.all_in_one_module",
         "isExtraImport": true,
         "detail": "common_modules.all_in_one_module",
+        "documentation": {}
+    },
+    {
+        "label": "traceback",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "traceback",
+        "description": "traceback",
+        "detail": "traceback",
         "documentation": {}
     },
     {
@@ -208,6 +209,103 @@
         "importPath": "pdb",
         "description": "pdb",
         "detail": "pdb",
+        "documentation": {}
+    },
+    {
+        "label": "display",
+        "importPath": "IPython.display",
+        "description": "IPython.display",
+        "isExtraImport": true,
+        "detail": "IPython.display",
+        "documentation": {}
+    },
+    {
+        "label": "Markdown",
+        "importPath": "IPython.display",
+        "description": "IPython.display",
+        "isExtraImport": true,
+        "detail": "IPython.display",
+        "documentation": {}
+    },
+    {
+        "label": "display",
+        "importPath": "IPython.display",
+        "description": "IPython.display",
+        "isExtraImport": true,
+        "detail": "IPython.display",
+        "documentation": {}
+    },
+    {
+        "label": "Markdown",
+        "importPath": "IPython.display",
+        "description": "IPython.display",
+        "isExtraImport": true,
+        "detail": "IPython.display",
+        "documentation": {}
+    },
+    {
+        "label": "Latex",
+        "importPath": "IPython.display",
+        "description": "IPython.display",
+        "isExtraImport": true,
+        "detail": "IPython.display",
+        "documentation": {}
+    },
+    {
+        "label": "Console",
+        "importPath": "rich.console",
+        "description": "rich.console",
+        "isExtraImport": true,
+        "detail": "rich.console",
+        "documentation": {}
+    },
+    {
+        "label": "Markdown",
+        "importPath": "rich.markdown",
+        "description": "rich.markdown",
+        "isExtraImport": true,
+        "detail": "rich.markdown",
+        "documentation": {}
+    },
+    {
+        "label": "pkg_resources",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pkg_resources",
+        "description": "pkg_resources",
+        "detail": "pkg_resources",
+        "documentation": {}
+    },
+    {
+        "label": "ConversationManager",
+        "importPath": "llm_selector_package.python_code_error_function_calling",
+        "description": "llm_selector_package.python_code_error_function_calling",
+        "isExtraImport": true,
+        "detail": "llm_selector_package.python_code_error_function_calling",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "importPath": "llm_selector_package.python_code_error_function_calling",
+        "description": "llm_selector_package.python_code_error_function_calling",
+        "isExtraImport": true,
+        "detail": "llm_selector_package.python_code_error_function_calling",
+        "documentation": {}
+    },
+    {
+        "label": "ConversationManager",
+        "importPath": "llm_selector_package.python_code_error_function_calling",
+        "description": "llm_selector_package.python_code_error_function_calling",
+        "isExtraImport": true,
+        "detail": "llm_selector_package.python_code_error_function_calling",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "importPath": "llm_selector_package.python_code_error_function_calling",
+        "description": "llm_selector_package.python_code_error_function_calling",
+        "isExtraImport": true,
+        "detail": "llm_selector_package.python_code_error_function_calling",
         "documentation": {}
     },
     {
@@ -436,80 +534,6 @@
         "documentation": {}
     },
     {
-        "label": "traceback",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "traceback",
-        "description": "traceback",
-        "detail": "traceback",
-        "documentation": {}
-    },
-    {
-        "label": "display",
-        "importPath": "IPython.display",
-        "description": "IPython.display",
-        "isExtraImport": true,
-        "detail": "IPython.display",
-        "documentation": {}
-    },
-    {
-        "label": "Markdown",
-        "importPath": "IPython.display",
-        "description": "IPython.display",
-        "isExtraImport": true,
-        "detail": "IPython.display",
-        "documentation": {}
-    },
-    {
-        "label": "display",
-        "importPath": "IPython.display",
-        "description": "IPython.display",
-        "isExtraImport": true,
-        "detail": "IPython.display",
-        "documentation": {}
-    },
-    {
-        "label": "Markdown",
-        "importPath": "IPython.display",
-        "description": "IPython.display",
-        "isExtraImport": true,
-        "detail": "IPython.display",
-        "documentation": {}
-    },
-    {
-        "label": "Latex",
-        "importPath": "IPython.display",
-        "description": "IPython.display",
-        "isExtraImport": true,
-        "detail": "IPython.display",
-        "documentation": {}
-    },
-    {
-        "label": "Console",
-        "importPath": "rich.console",
-        "description": "rich.console",
-        "isExtraImport": true,
-        "detail": "rich.console",
-        "documentation": {}
-    },
-    {
-        "label": "Markdown",
-        "importPath": "rich.markdown",
-        "description": "rich.markdown",
-        "isExtraImport": true,
-        "detail": "rich.markdown",
-        "documentation": {}
-    },
-    {
-        "label": "pkg_resources",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "pkg_resources",
-        "description": "pkg_resources",
-        "detail": "pkg_resources",
-        "documentation": {}
-    },
-    {
         "label": "JsonOutputParser",
         "importPath": "langchain_core.output_parsers",
         "description": "langchain_core.output_parsers",
@@ -600,6 +624,105 @@
         "description": "app",
         "peekOfCode": "response = client.chat.completions.create(\n  model=\"lmstudio-community/Meta-Llama-3-8B-Instruct-GGUF\",\n  messages=[\n    {\"role\": \"system\", \"content\": \"Always answer in rhymes\"},\n    {\"role\": \"user\", \"content\": \"who are  you ?\"},\n  ],\n  temperature=0.7,\n  stream=True\n)\nfor chunk in response:",
         "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "configurator",
+        "kind": 5,
+        "importPath": "app_find_python_error_explain_using_LLM",
+        "description": "app_find_python_error_explain_using_LLM",
+        "peekOfCode": "configurator = ModelConfigurator(\"GROQ\")\nconfigurator.configure()\noutput = None\ntry:\n    # Split the document into chunks\n    from langchain.text_splitter import CharacterTextSplitter\n    from langchain.document_loaders import TextLoader\n    import pathlib\n    # Define the path to the document to be loaded into the knowledge base\n    # state_of_the_union = pathlib.Path(\"/Users/pratiksingh/repo/projects/LM-Studio/data/test_file.txt\")",
+        "detail": "app_find_python_error_explain_using_LLM",
+        "documentation": {}
+    },
+    {
+        "label": "output",
+        "kind": 5,
+        "importPath": "app_find_python_error_explain_using_LLM",
+        "description": "app_find_python_error_explain_using_LLM",
+        "peekOfCode": "output = None\ntry:\n    # Split the document into chunks\n    from langchain.text_splitter import CharacterTextSplitter\n    from langchain.document_loaders import TextLoader\n    import pathlib\n    # Define the path to the document to be loaded into the knowledge base\n    # state_of_the_union = pathlib.Path(\"/Users/pratiksingh/repo/projects/LM-Studio/data/test_file.txt\")\n# Load the document\n    raw_documents = TextLoader(str(state_of_the_union)).load()",
+        "detail": "app_find_python_error_explain_using_LLM",
+        "documentation": {}
+    },
+    {
+        "label": "api_key",
+        "kind": 5,
+        "importPath": "app_find_python_error_explain_using_LLM",
+        "description": "app_find_python_error_explain_using_LLM",
+        "peekOfCode": "api_key = os.getenv(\"groq_api_key\")\nmodel_name = os.getenv(\"GROQ_MODEL_NAME\")\nconversation_manager = ConversationManager(api_key=api_key, model_name=model_name)\nuser_prompt = \"Is the env variable OPENAI_API_KEY installed, just tell me yes or no and it's value\"\nuser_prompt = output\nresult = conversation_manager.run_conversation(user_prompt)\n# print(result)\nconsole = Console()\nmarkdown = Markdown(result)\nconsole.print(markdown)",
+        "detail": "app_find_python_error_explain_using_LLM",
+        "documentation": {}
+    },
+    {
+        "label": "model_name",
+        "kind": 5,
+        "importPath": "app_find_python_error_explain_using_LLM",
+        "description": "app_find_python_error_explain_using_LLM",
+        "peekOfCode": "model_name = os.getenv(\"GROQ_MODEL_NAME\")\nconversation_manager = ConversationManager(api_key=api_key, model_name=model_name)\nuser_prompt = \"Is the env variable OPENAI_API_KEY installed, just tell me yes or no and it's value\"\nuser_prompt = output\nresult = conversation_manager.run_conversation(user_prompt)\n# print(result)\nconsole = Console()\nmarkdown = Markdown(result)\nconsole.print(markdown)\nprint(\"===========================================================\")",
+        "detail": "app_find_python_error_explain_using_LLM",
+        "documentation": {}
+    },
+    {
+        "label": "conversation_manager",
+        "kind": 5,
+        "importPath": "app_find_python_error_explain_using_LLM",
+        "description": "app_find_python_error_explain_using_LLM",
+        "peekOfCode": "conversation_manager = ConversationManager(api_key=api_key, model_name=model_name)\nuser_prompt = \"Is the env variable OPENAI_API_KEY installed, just tell me yes or no and it's value\"\nuser_prompt = output\nresult = conversation_manager.run_conversation(user_prompt)\n# print(result)\nconsole = Console()\nmarkdown = Markdown(result)\nconsole.print(markdown)\nprint(\"===========================================================\")\nmarkdown = Markdown(output)",
+        "detail": "app_find_python_error_explain_using_LLM",
+        "documentation": {}
+    },
+    {
+        "label": "user_prompt",
+        "kind": 5,
+        "importPath": "app_find_python_error_explain_using_LLM",
+        "description": "app_find_python_error_explain_using_LLM",
+        "peekOfCode": "user_prompt = \"Is the env variable OPENAI_API_KEY installed, just tell me yes or no and it's value\"\nuser_prompt = output\nresult = conversation_manager.run_conversation(user_prompt)\n# print(result)\nconsole = Console()\nmarkdown = Markdown(result)\nconsole.print(markdown)\nprint(\"===========================================================\")\nmarkdown = Markdown(output)\nconsole.print(markdown)",
+        "detail": "app_find_python_error_explain_using_LLM",
+        "documentation": {}
+    },
+    {
+        "label": "user_prompt",
+        "kind": 5,
+        "importPath": "app_find_python_error_explain_using_LLM",
+        "description": "app_find_python_error_explain_using_LLM",
+        "peekOfCode": "user_prompt = output\nresult = conversation_manager.run_conversation(user_prompt)\n# print(result)\nconsole = Console()\nmarkdown = Markdown(result)\nconsole.print(markdown)\nprint(\"===========================================================\")\nmarkdown = Markdown(output)\nconsole.print(markdown)",
+        "detail": "app_find_python_error_explain_using_LLM",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "app_find_python_error_explain_using_LLM",
+        "description": "app_find_python_error_explain_using_LLM",
+        "peekOfCode": "result = conversation_manager.run_conversation(user_prompt)\n# print(result)\nconsole = Console()\nmarkdown = Markdown(result)\nconsole.print(markdown)\nprint(\"===========================================================\")\nmarkdown = Markdown(output)\nconsole.print(markdown)",
+        "detail": "app_find_python_error_explain_using_LLM",
+        "documentation": {}
+    },
+    {
+        "label": "console",
+        "kind": 5,
+        "importPath": "app_find_python_error_explain_using_LLM",
+        "description": "app_find_python_error_explain_using_LLM",
+        "peekOfCode": "console = Console()\nmarkdown = Markdown(result)\nconsole.print(markdown)\nprint(\"===========================================================\")\nmarkdown = Markdown(output)\nconsole.print(markdown)",
+        "detail": "app_find_python_error_explain_using_LLM",
+        "documentation": {}
+    },
+    {
+        "label": "markdown",
+        "kind": 5,
+        "importPath": "app_find_python_error_explain_using_LLM",
+        "description": "app_find_python_error_explain_using_LLM",
+        "peekOfCode": "markdown = Markdown(result)\nconsole.print(markdown)\nprint(\"===========================================================\")\nmarkdown = Markdown(output)\nconsole.print(markdown)",
+        "detail": "app_find_python_error_explain_using_LLM",
+        "documentation": {}
+    },
+    {
+        "label": "markdown",
+        "kind": 5,
+        "importPath": "app_find_python_error_explain_using_LLM",
+        "description": "app_find_python_error_explain_using_LLM",
+        "peekOfCode": "markdown = Markdown(output)\nconsole.print(markdown)",
+        "detail": "app_find_python_error_explain_using_LLM",
         "documentation": {}
     },
     {
@@ -891,29 +1014,47 @@
         "documentation": {}
     },
     {
-        "label": "is_package_installed",
-        "kind": 2,
+        "label": "api_key",
+        "kind": 5,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "def is_package_installed(package_name):\n    try:\n        # Try to get the distribution from the currently active environment\n        pkg_resources.get_distribution(package_name)\n        return True\n    except pkg_resources.DistributionNotFound:\n        return False\n# Example usage\npackage_name = \"openai\"\nif is_package_installed(\"openai\"):",
+        "peekOfCode": "api_key = os.getenv(\"groq_api_key\")\nmodel_name = os.getenv(\"GROQ_MODEL_NAME\")\nconversation_manager = ConversationManager(api_key=api_key, model_name=model_name)\nuser_prompt = \"Is the env variable OPENAI_API_KEY installed, just tell me yes or no and it's value\"\nresult = conversation_manager.run_conversation(user_prompt)\nprint(result)",
         "detail": "main",
         "documentation": {}
     },
     {
-        "label": "package_name",
+        "label": "model_name",
         "kind": 5,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "package_name = \"openai\"\nif is_package_installed(\"openai\"):\n    print(f\"The package '{package_name}' is installed.\")\nelse:\n    print(f\"The package '{package_name}' is not installed.\")\nexit()\nconfigurator = ModelConfigurator(\"GROQ\")\nconfigurator.configure()\ntry:\n    # client = OpenAI(base_url=os.environ.get(\"OPENAI_API_BASE\"), api_key=os.environ.get(\"OPENAI_API_KEY\"))",
+        "peekOfCode": "model_name = os.getenv(\"GROQ_MODEL_NAME\")\nconversation_manager = ConversationManager(api_key=api_key, model_name=model_name)\nuser_prompt = \"Is the env variable OPENAI_API_KEY installed, just tell me yes or no and it's value\"\nresult = conversation_manager.run_conversation(user_prompt)\nprint(result)",
         "detail": "main",
         "documentation": {}
     },
     {
-        "label": "configurator",
+        "label": "conversation_manager",
         "kind": 5,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "configurator = ModelConfigurator(\"GROQ\")\nconfigurator.configure()\ntry:\n    # client = OpenAI(base_url=os.environ.get(\"OPENAI_API_BASE\"), api_key=os.environ.get(\"OPENAI_API_KEY\"))\n    # output =1/0\n    # print(output)\n    L1 = [\"a\", \"b\"]\n    print(L1[3])\n    D1 = 1/0\n    print(D1)",
+        "peekOfCode": "conversation_manager = ConversationManager(api_key=api_key, model_name=model_name)\nuser_prompt = \"Is the env variable OPENAI_API_KEY installed, just tell me yes or no and it's value\"\nresult = conversation_manager.run_conversation(user_prompt)\nprint(result)",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "user_prompt",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "user_prompt = \"Is the env variable OPENAI_API_KEY installed, just tell me yes or no and it's value\"\nresult = conversation_manager.run_conversation(user_prompt)\nprint(result)",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "result = conversation_manager.run_conversation(user_prompt)\nprint(result)",
         "detail": "main",
         "documentation": {}
     },
